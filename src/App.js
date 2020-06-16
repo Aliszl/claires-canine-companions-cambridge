@@ -7,11 +7,13 @@ import { Layout } from "antd";
 // import styled from "styled-components";
 import Navigation from "./components/Navigation";
 import Home from "./components/Home";
-// import Services from "./components/Services";
+import Contact from "./components/Contact"
+import Services from "./components/Services";
 import About from "./components/About";
 import Gallery from "./components/Gallery";
 import { HeaderStyle } from "./styles/style";
 import fullWidthDogPic from "./img/jackheadshot.jpeg";
+
 
 import rowOfDogs from "./img/rowOfDogs.png";
 import Walks from "./components/Walks";
@@ -31,22 +33,22 @@ function App() {
       <Layout>
         <Header style={{ backgroundColor: "#fff" }}>
           <Navigation style={{ paddingBottom: "20px" }} />
-         
         </Header>
-             
+
         <Content className="">
           <Switch>
             <Route exact path="/">
               <Home />
             </Route>
             <Route exact path="/services">
-            <ServicesNav/>
+              <ServicesNav />
+              <Services />
             </Route>
             <Route exact path="/services/walks">
               <Walks />
             </Route>
             <Route exact path="/services/daycare">
-              <Daycare/>
+              <Daycare />
             </Route>
             <Route exact path="/services/boarding">
               <Boarding />
@@ -70,17 +72,23 @@ function App() {
               <About />
             </Route>
             <Route exact path="/contact">
-              <Home />
+              <Contact />
             </Route>
             <Route exact path="/holistic/reiki">
               <Home />
             </Route>
+           
+
           </Switch>
         </Content>
       </Layout>
       <footer>
         <div classname="jackHeadshotDiv">
           <img className="jackHeadshot" src={fullWidthDogPic} alt="dog" />
+
+      
+
+          {/* <img className="facebook" src={facebook} alt="icon" /> */}
         </div>
       </footer>
     </HeaderStyle>

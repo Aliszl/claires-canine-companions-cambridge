@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Menu } from "antd";
+import { Menu} from "antd";
+
 
 const Navigation = () => {
   return (
@@ -24,11 +25,13 @@ const Navigation = () => {
           <Link to="/gallery">GALLERY</Link>
         </Menu.Item>
         <Menu.Item key="4">
-          <Link to="/contact">CONTACT US</Link>
+          <Link to="/contact">CONTACT</Link>
         </Menu.Item>
+        
       </Menu>
     </>
   );
 };
 
 export default Navigation;
+

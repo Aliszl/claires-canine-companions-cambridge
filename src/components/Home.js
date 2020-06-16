@@ -3,6 +3,7 @@ import React from "react";
 import autumn from "../img/autumn.jpg";
 import granchester from "../img/granchesterMeadows.jpg";
 import paw from "../img/paw.png";
+import popularStamp from "../img/popularStamp.png";
 import { StyledDiv } from "../styles/style";
 import { Link } from "react-router-dom";
 
@@ -54,13 +55,36 @@ const Home = () => {
       <br />
       <h2>We are passionate about dogs, and the outdoors.</h2>
       <br />
+      <h1 className="headerCentralised">Our Services</h1>
       <div className="services-top-row services-row">
         <div className="servicesBox">
           <div className="servicesBox-header">
             <img src={paw} alt="paw" />
-            <h1>Walking</h1>
+            <h1>Day Care</h1>
           </div>
-          <h2></h2>
+          <h2>
+            Full day doggy day care <br /> (9am to 4.30) £25
+          </h2>
+          <h2>
+            Half day doggy day care <br /> £17.50
+          </h2>
+          <Link to="/services/daycare">Read More</Link>
+        </div>
+        <div className="servicesBox">
+          <div className="servicesBox-header">
+            <img src={paw} alt="paw" />
+            <h1>Walks</h1>
+            <img className="popularStamp" src={popularStamp} alt="" />
+          </div>
+          <h2>
+            1 hour walk
+            <br />
+            £15 per hour 1 dog
+            <br />
+            £20 per hour 2 dogs
+            <br />
+            Including pick up and drop off.
+          </h2>
           <Link to="/services/walks">Read More</Link>
         </div>
 
@@ -69,37 +93,80 @@ const Home = () => {
             <img src={paw} alt="" />
             <h1>Boarding</h1>
           </div>
-          <h2></h2>
+          <h2>
+            Over night stays. From a night to a fornight. All boarding is done
+            in the house rather than kennels, so it is a very relaxed and homely
+            environment
+          </h2>
+          <Link to="/services/walks">Read More</Link>
+        </div>
+      </div>
+
+    
+      <div className="services-middle-row services-row">
+        <div className="servicesBox">
+          <div className="servicesBox-header">
+            <img src={paw} alt="paw" />
+            <h1>Grooming</h1>
+          </div>
+          <h2>test</h2>
+          <Link to="/services/daycare">Read More</Link>
+        </div>
+        <div className="servicesBox">
+          <div className="servicesBox-header">
+            <img src={paw} alt="" />
+            <h1>Puppy Classes</h1>
+          </div>
+          <h2>test</h2>
           <Link to="/services/walks">Read More</Link>
         </div>
         <div className="servicesBox">
           <div className="servicesBox-header">
             <img src={paw} alt="paw" />
-            <h1>Day Care</h1>
+            <h1>Retreats</h1>
           </div>
-          <h2></h2>
+          <h2>test</h2>
           <Link to="/services/walks">Read More</Link>
         </div>
       </div>
+    
+      <div className="services-middle-row services-row">
+        <div className="servicesBox">
+          <div className="servicesBox-header">
+            <img src={paw} alt="" />
+            <h1>Vet Visits</h1>
+          </div>
+          <h2> £10 base rate plus £10 per hour </h2>
+          <Link to="/services/walks">Read More</Link>
+        </div>
 
-      <p>
-        providing a healthy and happy lifestyle for your dogs whilst in our
-        care, whether it being walks, daycare or boarding All boarding is done
-        in the house rather than kennels so it is a very relaxed and natural
-        homely environment I have dedicated 10 wonderful doggies years to
-        ensuring that your dogs are in their element stress free and enjoying
-        their dog lives Exciting new beginnings in 2021 Myself and my team with
-        the help of my partner are creating a wonderful doggy creche based in
-        Downham Market 8 acres of land, based within the fenland, with a sensory
-        garden, doggy pool, chill out rooms, under floor heating in the doggy
-        rooms, groom room with a wash bath for the pooches Fully cameraed so you
-        can see what your dog has been up to. Electric and password front gates,
-        monitored at all times This is an exciting time for the business with
-        special speakers throughout the month, talks about Raw Feeding,
-        Nutrition Dog Retreat weekends Puppy Classes, and Agility Services
-        offered Half daycare, Full daycare Walks Grooming Boarding Retreats
-        Puppy classes
-      </p>
+        <div className="servicesBox">
+          <div className="servicesBox-header">
+            <img src={paw} alt="paw" />
+            <h1>Pet Taxi</h1>
+          </div>
+          <h2>Key/home collection service. £10 base rate plus £10 per hour</h2>
+          <Link to="/services/walks">Read More</Link>
+        </div>
+        <div className="servicesBox">
+          <div className="servicesBox-header">
+            <img src={paw} alt="paw" />
+            <h1>Home Sitting</h1>
+          </div>
+          <h2>
+            Holiday walking and feeding package
+            <br />
+            Includes 1-3 walks (according to dog),
+            <br />
+            feeding, watering plants and caring for your home,
+            <br />
+            plus text updates! <br />
+            £35 per day
+          </h2>
+
+          <Link to="/services/walks">Read More</Link>
+        </div>
+      </div>
     </StyledDiv>
   );
 };
