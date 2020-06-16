@@ -1,81 +1,72 @@
 import React from "react";
 // import rowOfDogs from "../img/rowOfDogs.png";
 import autumn from "../img/autumn.jpg";
-
+import granchester from "../img/granchesterMeadows.jpg";
 import { StyledDiv } from "../styles/style";
 
 const Home = () => {
   return (
     <StyledDiv>
-      <h1>Dog Walking Cambridge </h1>
+      <h1>Dog Walking in Cambridge </h1>
       <h2>(and surrounding villages)</h2>
-      <h2>Providing quality and lengthy dog walks out in the Cambridgeshire countryside since 2010 </h2>
-      <br/>
+      <h2>
+        Providing quality and lengthy dog walks in the beautiful Cambridgeshire
+        countryside since 2010{" "}
+      </h2>
+      <br />
       <ul>
-        <li>
-
-        Reliable and professional
-        </li>
-        <li>
-        flexible to your requirements and the needs of your dog
-        </li>
-        <li>
-        Fully insured & first aid trained
-        </li>
-        </ul>
-        <br/>
-        <img src={autumn} alt="collie" width="50%" />
-      <p>
-        Having a full time job or mobility issues can make dog parenting
-        difficult, let us 'take the lead' ( Sorry ! )
-      </p>
-      <p>
-         If you are looking for a
-        reliable, professional and flexible service, to act in loco parentis for
-        your fur baby when you can't be with them, look no further. Tailored to
-        the requirements of you and your dog we cover all aspects of dog care
-        from regular walks to emergency vet visits.
-        <br />
+        <li>Reliable and professional</li>
+        <li>Flexible to your requirements and the needs of your dog</li>
+        <li>Fully insured & first aid trained</li>
+      </ul>
+      <br />
+      <div className="image-left">
+        <img src={autumn} alt="autumn"  />
         <h2>
-
-        We are passionate about dogs.
+          Having a full time job, time consuming responsibilities or mobility
+          issues can make dog parenting difficult, and everybody needs time out
+          from their fur baby sometimes. Let us 'take the lead' ( Sorry ! ){" "}
+          <br /> 
+          <br/>
+          If you are looking for a reliable, professional and flexible
+          service, to act in loco parentis for your pup when you can't be
+          with them, look no further.
         </h2>
-        <br />
-        We understand dogs and ensure they have everything they need whilst in
-        our care, so you can focus on your working day knowing they are happy
-        and cared for. Our team structure means we can better optimise our
-        groupings according to the dog's needs and be both flexible and
-        reliable.
-      </p>
+      </div>
+
+      <div className="image-right">
+        <img src={granchester} alt="granchester meadows"  />
+        <h2>
+        We offer all aspects of dog care from regular walks to emergency vet visits,
+         tailored to your requirements and your dog's needs. <br/> We understand
+          dogs and ensure they have everything they need whilst in our care, so
+          you can focus on your working day knowing they are happy and cared
+          for.<br/> Our team structure means we can better optimise our groupings
+          according to the dog's needs and be both flexible and reliable. 
+           We will never let you down.
+        </h2>
+      </div>
+
+      <br />
+      <h2>We are passionate about dogs, and the outdoors.</h2>
+      <br />
       <p>
-        Claire's Canine Companions was started up in August 2010 by myself. I am
-        based in and around Cambridge centre and surrounding villages, Girton ,
-        Cottenham, Fulbourn, Wilbraham and Sawston. I have 4 helpers who help
-        cover the areas and home boarding. I provide a personable, friendly,
-        professional and flexible service tailored to your needs and
-        requirements for your dog's. Providing quality and lengthy dog walks out
-        in the Cambridgeshire countryside I have grown up with animals as my
-        parents are farmers, Feeding chickens, geese and keeping gun dogs aswell
-        as house dogs prominently spaniels I have a varied training background
-        Tellington T Touch Reiki massage Canine Flow Practitioner Puppy training
-        Animal Communication Dog Aggression Diploma Balance Procedure First Aid
-        Fully insured Myself and my ladies are very passionate and dedicated to
-        the work that we do, providing a healthy and happy lifestyle for your
-        dogs whilst in our care, whether it being walks, daycare or boarding All
-        boarding is done in the house rather than kennels so it is a very
-        relaxed and natural homely environment I have dedicated 10 wonderful
-        doggies years to ensuring that your dogs are in their element stress
-        free and enjoying their dog lives Exciting new beginnings in 2021 Myself
-        and my team with the help of my partner are creating a wonderful doggy
-        creche based in Downham Market 8 acres of land, based within the
-        fenland, with a sensory garden, doggy pool, chill out rooms, under floor
-        heating in the doggy rooms, groom room with a wash bath for the pooches
-        Fully cameraed so you can see what your dog has been up to. Electric and
-        password front gates, monitored at all times This is an exciting time
-        for the business with special speakers throughout the month, talks about
-        Raw Feeding, Nutrition Dog Retreat weekends Puppy Classes, and Agility
-        Services offered Half daycare, Full daycare Walks Grooming Boarding
-        Retreats Puppy classes
+        providing a healthy and happy lifestyle for your dogs whilst in our
+        care, whether it being walks, daycare or boarding All boarding is done
+        in the house rather than kennels so it is a very relaxed and natural
+        homely environment I have dedicated 10 wonderful doggies years to
+        ensuring that your dogs are in their element stress free and enjoying
+        their dog lives Exciting new beginnings in 2021 Myself and my team with
+        the help of my partner are creating a wonderful doggy creche based in
+        Downham Market 8 acres of land, based within the fenland, with a sensory
+        garden, doggy pool, chill out rooms, under floor heating in the doggy
+        rooms, groom room with a wash bath for the pooches Fully cameraed so you
+        can see what your dog has been up to. Electric and password front gates,
+        monitored at all times This is an exciting time for the business with
+        special speakers throughout the month, talks about Raw Feeding,
+        Nutrition Dog Retreat weekends Puppy Classes, and Agility Services
+        offered Half daycare, Full daycare Walks Grooming Boarding Retreats
+        Puppy classes
       </p>
     </StyledDiv>
   );

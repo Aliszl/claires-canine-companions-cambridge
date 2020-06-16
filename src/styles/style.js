@@ -16,6 +16,9 @@ export const HeaderStyle = styled.div`
     text-align: center;
     font-family: "Indie Flower", cursive;
     font-size: 4rem;
+    @media(max-width: 768px){
+      font-size: 2rem;
+    }
   }
   .pcentralised{
     text-align: center;
@@ -33,14 +36,46 @@ export const HeaderStyle = styled.div`
     position: relative;
     margin: auto;
   }
+  .image-left{
+    display:flex;
+    flex-direction:row;
+    padding-bottom: 5%;
+    img{
+      width:50%;
+    }
+    @media(max-width: 768px){
+      flex-direction:column;
+      img{
+      width:100%;
+    }
+
+    }
+  }
+      
+    .image-right{
+    display:flex;
+    flex-direction:row-reverse;
+    img{
+      width:50%;
+    }
+    @media(max-width: 768px){
+      flex-direction:column;
+      img{
+      width:100%;
+    }
+
+  }
   @media (max-width: 768px) {
     font-size: 0.5em;
   }
 `;
 export const StyledDiv = styled.div`
-/* h1{
+h1{
+  font-size:3em;
+}
+h2{
   font-size:2em;
-} */
+}
 p{
   font-size:1.5em;
 }
@@ -50,11 +85,18 @@ background-color: #fff;
   padding: 90px 20px 0 20px ;
  
   overflow: hidden;
+
 li{
   margin:0 0 0 80px;
   text-align: left;
     font-family: "Indie Flower", cursive;
-    font-size: 1rem;
+    font-size: 2rem;
+    text-emphasis:bold;
+    @media (max-width: 768px) {
+    font-size: 1.5em;
+    margin:0 0 0 0;
+  }
+   /* text-decoration:bold; */
 }
 
   
