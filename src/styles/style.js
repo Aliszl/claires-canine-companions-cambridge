@@ -72,12 +72,21 @@ export const HeaderStyle = styled.div`
 export const StyledDiv = styled.div`
 h1{
   font-size:3em;
+  @media(max-width: 768px){
+    font-size:2em;
+    }
 }
 h2{
   font-size:2em;
+  @media(max-width: 768px){
+    font-size:1em;
+    }
 }
 p{
   font-size:1.5em;
+  @media(max-width: 768px){
+    font-size:1em;
+    }
 }
 background-color: #fff;
   margin: 0 0 0 0;
@@ -96,8 +105,31 @@ li{
     font-size: 1.5em;
     margin:0 0 0 0;
   }
-   /* text-decoration:bold; */
+
 }
+
+.services-row{
+display:flex;
+justify-content:space-evenly
+@media (max-width: 768px) {
+ flex-direction:column;
+}
+}
+      .servicesBox{
+        background-color:#f2f2f2;
+        /* border:1px solid blue; */
+        margin:3px;
+        width:30%;
+        .servicesBox-header{
+display:flex;
+          img{
+          
+            max-height:20%;
+            max-width:25%;
+          }
+        }
+    
+      }
 
   
     @media (max-width: 768px) {
