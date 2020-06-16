@@ -10,7 +10,7 @@ import Home from "./components/Home";
 // import Services from "./components/Services";
 import About from "./components/About";
 import Gallery from "./components/Gallery";
-import { WholeAppStyled } from "./styles/style";
+import { HeaderStyle } from "./styles/style";
 import fullWidthDogPic from "./img/jackheadshot.jpeg";
 
 import rowOfDogs from "./img/rowOfDogs.png";
@@ -23,7 +23,7 @@ const { Header, Content } = Layout;
 
 function App() {
   return (
-    <WholeAppStyled className="App-header">
+    <HeaderStyle className="App-header">
       <div className="headerCentralised">Claire's Canine Companions</div>
       <div className="image">
         <img className="rowOfDogs" src={rowOfDogs} alt="dogs" />
@@ -83,7 +83,7 @@ function App() {
           <img className="jackHeadshot" src={fullWidthDogPic} alt="dog" />
         </div>
       </footer>
-    </WholeAppStyled>
+    </HeaderStyle>
   );
 }
 
