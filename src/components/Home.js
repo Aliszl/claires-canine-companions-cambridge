@@ -1,5 +1,6 @@
 import React from "react";
 // import rowOfDogs from "../img/rowOfDogs.png";
+import autumn from "../img/autumn.jpg";
 
 import { StyledDiv } from "../styles/style";
 
@@ -7,25 +8,38 @@ const Home = () => {
   return (
     <StyledDiv>
       <h1>Dog Walking Cambridge </h1>
-      <h1>(and surrounding villages)</h1>
-      <h2>Providing quality and lengthy dog walks out in the Cambridgeshire countryside </h2>
-      <h2>Reliable and professional</h2>
-      <h2>flexible to your requirements and the needs of your dog</h2>
-      <h2>Fully insured & first aid trained</h2>
-      <h2>Reliable and professional</h2>
+      <h2>(and surrounding villages)</h2>
+      <h2>Providing quality and lengthy dog walks out in the Cambridgeshire countryside since 2010 </h2>
+      <br/>
+      <ul>
+        <li>
+
+        Reliable and professional
+        </li>
+        <li>
+        flexible to your requirements and the needs of your dog
+        </li>
+        <li>
+        Fully insured & first aid trained
+        </li>
+        </ul>
+        <br/>
+        <img src={autumn} alt="collie" width="50%" />
       <p>
         Having a full time job or mobility issues can make dog parenting
-        difficult, let us 'take the lead' (Sorry!)
+        difficult, let us 'take the lead' ( Sorry ! )
       </p>
       <p>
-        We are a close knit team of Cambridgeshire based dog walkers and
-        sitters, headed up by our founder Claire. If you are looking for a
+         If you are looking for a
         reliable, professional and flexible service, to act in loco parentis for
         your fur baby when you can't be with them, look no further. Tailored to
         the requirements of you and your dog we cover all aspects of dog care
         from regular walks to emergency vet visits.
         <br />
+        <h2>
+
         We are passionate about dogs.
+        </h2>
         <br />
         We understand dogs and ensure they have everything they need whilst in
         our care, so you can focus on your working day knowing they are happy

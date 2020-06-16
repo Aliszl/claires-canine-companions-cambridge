@@ -17,6 +17,11 @@ export const HeaderStyle = styled.div`
     font-family: "Indie Flower", cursive;
     font-size: 4rem;
   }
+  .pcentralised{
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+    font-size: 1rem;
+  }
   footer {
     /* position: fixed; */
     bottom: 0;
@@ -33,9 +38,9 @@ export const HeaderStyle = styled.div`
   }
 `;
 export const StyledDiv = styled.div`
-h1{
+/* h1{
   font-size:2em;
-}
+} */
 p{
   font-size:1.5em;
 }
@@ -45,7 +50,12 @@ background-color: #fff;
   padding: 90px 20px 0 20px ;
  
   overflow: hidden;
-
+li{
+  margin:0 0 0 80px;
+  text-align: left;
+    font-family: "Indie Flower", cursive;
+    font-size: 1rem;
+}
 
   
     @media (max-width: 768px) {
@@ -57,6 +67,7 @@ background-color: #fff;
   font-size: 1rem;
  
   }
+  
     }
   }
 
