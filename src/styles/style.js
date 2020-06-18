@@ -31,20 +31,24 @@ export const AppStyled = styled.div`
     /* position: fixed; */
     bottom: 0;
     width: 100%;
+    max-height:10vh;
     display:flex;
     justify-content:space-evenly
     /* .facebook{
       max-width:30px;
     } */
     /* .jackHeadshotDiv{
-
+      width:100%;
+     max-height:20vh;
     } */
   }
-  footer img {
-    width: 80 vw;
+  .jackHeadshot {
+    width: 80vw;
+    
     display: table;
     position: relative;
     margin: auto;
+    overflow:hidden;
   }
   .image-left{
     display:flex;

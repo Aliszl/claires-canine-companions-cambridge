@@ -46,8 +46,8 @@ const testimonialCarousel = [
   },
   {
     carouselImg: granchester,
-    carouselText: "test",
-    carouselName: "test",
+    carouselText: "Our little shy Shihpoo, Bonnie, has been going on group walks with Claire and her team for almost 2 years. Claire spends the time and effort to not only exercise the dogs, but to pair them in size and personalities to get the most out of the sessions. We have seen vast improvements in Bonnies behaviour such as her confidence and her ability to assess new dogs and people quickly. It’s lovely to hand her over each day seeing her tail waggle and knowing she is in great hands. We highly recommend Claire’s Canine Companions.",
+    carouselName: "Alice BrownJohn with Bonnie",
   },
   
 ];
@@ -238,6 +238,10 @@ const Home = () => {
         <div>
           <h2>{testimonialCarousel[5].carouselName}</h2>
           <p>{testimonialCarousel[5].carouselText}</p>
+        </div>
+        <div>
+          <h2>{testimonialCarousel[6].carouselName}</h2>
+          <p>{testimonialCarousel[6].carouselText}</p>
         </div>
       </Carousel>
     </StyledDiv>
