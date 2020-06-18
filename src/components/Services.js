@@ -2,7 +2,7 @@ import React from "react";
 import { StyledDiv } from "../styles/style";
 import clairePic from "../img/claire.jpg";
 import claire2 from "../img/claire2.jpg";
-
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
@@ -10,13 +10,15 @@ const Services = () => {
       <h2 className="headerCentralised">Services</h2>
       <p className="pcentralised">
         <ul>
-          <li>Half daycare</li>
-          <li>Full daycare</li>
-          <li>Walks</li>
-          <li>Grooming</li>
-          <li>Boarding</li>
-          <li>Retreats</li>
-          <li>Puppy classes</li>
+        <Link to="/services/daycare"> <li>Half daycare</li></Link>
+        <Link to="/services/daycare">  <li>Full daycare</li></Link>
+        <Link to="/services/walks">   <li>Walks</li></Link>
+        <Link to="/services/grooming">  <li>Grooming</li></Link>
+        <Link to="/services/boarding">  <li>Boarding</li></Link>
+        <Link to="/services/retreats">   <li>Retreats</li></Link>
+        <Link to="/services/puppyclasses">  <li>Puppy Classes</li></Link>
+          
+         
         </ul>
       </p>
       <br />

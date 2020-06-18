@@ -11,7 +11,7 @@ import Contact from "./components/Contact"
 import Services from "./components/Services";
 import About from "./components/About";
 import Gallery from "./components/Gallery";
-import { HeaderStyle } from "./styles/style";
+import { AppStyled } from "./styles/style";
 import fullWidthDogPic from "./img/jackheadshot.jpeg";
 
 
@@ -20,12 +20,15 @@ import Walks from "./components/Walks";
 import Boarding from "./components/Boarding";
 import Daycare from "./components/Daycare";
 import ServicesNav from "./components/ServicesNav";
+import Grooming from "./components/Grooming";
+import Retreats from "./components/Retreats";
+import PuppyTraining from "./components/PuppyTraining";
 
 const { Header, Content } = Layout;
 
 function App() {
   return (
-    <HeaderStyle className="App-header">
+    <AppStyled className="App-header">
       <div className="headerCentralised">Claire's Canine Companions</div>
       <div className="image">
         <img className="rowOfDogs" src={rowOfDogs} alt="dogs" />
@@ -54,13 +57,13 @@ function App() {
               <Boarding />
             </Route>
             <Route exact path="/services/retreats">
-              <Home />
+              <Retreats />
             </Route>
             <Route exact path="/services/grooming">
-              <Home />
+              <Grooming />
             </Route>
             <Route exact path="/services/puppyclasses">
-              <Home />
+              <PuppyTraining />
             </Route>
             <Route exact path="/services/keycollection">
               <Home />
@@ -91,7 +94,7 @@ function App() {
           {/* <img className="facebook" src={facebook} alt="icon" /> */}
         </div>
       </footer>
-    </HeaderStyle>
+    </AppStyled>
   );
 }
 

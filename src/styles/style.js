@@ -1,7 +1,7 @@
 import styled from "styled-components";
 // import fullWidthDogPic from "../img/jackheadshot.jpeg";
 // import { Carousel } from "antd";
-export const HeaderStyle = styled.div`
+export const AppStyled = styled.div`
   background-color: #fff;
   width: 100%;
 
@@ -40,12 +40,12 @@ export const HeaderStyle = styled.div`
 
     } */
   }
-  /* footer img {
-    width: 100%;
+  footer img {
+    width: 80 vw;
     display: table;
     position: relative;
     margin: auto;
-  } */
+  }
   .image-left{
     display:flex;
     flex-direction:row;
@@ -76,13 +76,22 @@ export const HeaderStyle = styled.div`
     }
 
   }
-  @media (max-width: 768px) {
+  /* @media (max-width: 768px) {
     font-size: 0.5em;
-  }
+  } */
     }
 `;
 
 export const StyledDiv = styled.div`
+ background-color: #fff;
+  margin: 0 0 0 0;
+  width: 100%;
+  padding: 90px 20px 0 20px;
+
+  overflow: hidden;
+  @media (max-width: 768px) {
+    padding: 20px 20px 0 20px;
+    }
   h1 {
     font-family: "Indie Flower", cursive;
     font-size: 3em;
@@ -117,12 +126,7 @@ export const StyledDiv = styled.div`
       font-size: 1em;
     }
   }
-  background-color: #fff;
-  margin: 0 0 0 0;
-  width: 100%;
-  padding: 90px 20px 0 20px;
-
-  overflow: hidden;
+ 
 
   li {
     margin: 0 0 0 80px;
@@ -156,6 +160,7 @@ export const StyledDiv = styled.div`
         width: 20%;
       }
     }
+   
     @media (max-width: 768px) {
       width: 96%;
       .servicesBox-header {

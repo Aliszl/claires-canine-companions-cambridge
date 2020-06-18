@@ -1,13 +1,13 @@
 import React from "react";
 import {StyledDiv} from "../styles/style";
-const Walks = () => {
+const PuppyTraining = () => {
     return (
         <StyledDiv>
-          <h2>Walks</h2>
+          <h2>Puppy Classes/ training</h2>
        
         </StyledDiv>
       );
     };
     
-    export default Walks;
+    export default PuppyTraining;
 

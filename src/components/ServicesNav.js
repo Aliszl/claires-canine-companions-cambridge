@@ -28,7 +28,7 @@ const ServicesNav = () => {
           <Link to="/services/boarding">Boarding</Link>
         </Menu.Item>
         <Menu.Item key="4" style={{ color: "#fff" }}>
-          <Link to="/services/groomin"> Grooming</Link>
+          <Link to="/services/grooming"> Grooming</Link>
         </Menu.Item>
         <Menu.Item key="5" style={{ color: "#fff" }}>
           <Link to="/services/boarding">Boarding</Link>
