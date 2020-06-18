@@ -1,70 +1,260 @@
 import React from "react";
 // import rowOfDogs from "../img/rowOfDogs.png";
-
+import autumn from "../img/autumn.jpg";
+import granchester from "../img/granchesterMeadows.jpg";
+import paw from "../img/paw.png";
+import popularStamp from "../img/popularStamp.png";
 import { StyledDiv } from "../styles/style";
+import { Link } from "react-router-dom";
+import { Carousel } from "antd";
+
+const testimonialCarousel = [
+  {
+    carouselImg: autumn,
+    carouselText: "We think Claire is a wonderful dog walker/house sitter. She looked after our wonderful dog, Max, in our home for 3 ½ weeks when were on holiday and we have asked her back since then. Max  has a number of issues which Claire was very happy to deal with, even taking him to the vet as requested by us. She kept us in touch with how he was doing and was always available by texting. She is full of common sense, totally trustworthy and clearly adores dogs and is very experienced. And it was clear from the start that Max was very happy with Claire. She went that extra mile with advice and ideas to help Max with his anxiety issues – all very welcome, not at all pushy. Claire is really lovely and very easy to talk to. We felt very relaxed when we were away in the knowledge that Max was being very well looked after with some very relaxing doggy massage thrown in too! Our house too was well looked after and clean and tidy when we returned!",
+    carouselName: "Maggie  (with Max) ",
+  },
+  {
+    carouselImg: granchester,
+    carouselText: "Claire Bloomfield has worked for us looking after and nurturing our two miniature daschund/ jack Russell crosses. She is very thoughtful and caring in her approach to walking and looking after them whilst in her care. The dogs re her top priority and she has worked with us to help one of the dogs behavioural issues and the other with food issues. She shows such passion and dedication in all aspects of her work and it very trustworthy. I wouldn't hesitate to recommend her for dog walking or pet sitting.",
+    carouselName: "Nicki (with Coco and Kanga) ",
+  },
+  {
+    carouselImg: granchester,
+    carouselText: "I was so relieved to find a kind and caring dog walker. Claire was recommended to me by a friend after searching long and hard. My boy is far too precious to just leave alone or with anyone! Claire was so sweet and patient whilst I put her through the mill of questions and more questions and finally a trial dog walk with me in tow! She immediately put me at ease and Hugo just adores his auntie Claire. I would highly recommend her to anyone!",
+    carouselName: "Natasha (with Hugo)  ",
+  },
+  {
+    carouselImg: granchester,
+    carouselText: "It took me over a year to take the plunge to find a dog walker as I was so nervous to trust anyone else with my dog. Claire quickly put my mind at ease and assured me that no risks would ever be taken and that Roxy would  be in safe hands.Roxy has now been enjoying regular walks with Claire for almost years where I have peace of mind knowing that she's out having fun and socialising when I'm at work - and I always get home to a tired and happy dog.  Claire always updates me with a text to let me know how they got on and that she's safely home again. Claire's experience in Reiki is also a huge benefit, particularly on days that are too hot (or too rainy!) to walk, Roxy still gets some quality time and attention. I trust Claire completely with a key to my home and with Roxy and wouldn't hesitate for a moment to recommend her to others.",
+    carouselName: "Daisy (with Roxy) ",
+  },
+  {
+    carouselImg: granchester,
+    carouselText: "Claire is part if the family now. I didn't trust anyone with Domino until I bumped into Claire and Dominio automatically took to her. Dominion boards with Claire frequently as I am away alot. She is always happy to go with her and happy when she comes back. I know she is in safe hands and Claore always gives her 100% attention and care while I am away. It gives me a sense of ease while I am away to know she is in good hands and very well looked after.",
+    carouselName: "Aislinn with Domino",
+  },
+  {
+    carouselImg: granchester,
+    carouselText: "Claire has been our dog sitter for over 4 years and Millie just loves her to bits. Claire stays at our house and I know Millie is in good hands and the knowing that the house is being looked after. The house is always tidy and clean when we return and Millie has had a fantastic time and looks sad when she says goodbye to her.William her greyhound stays with her in the house too and there is never a problem, Millie loves him so much and they have snuggles on the sofa. Now William has passed away, her new dog Spock stays and again never any problems and Millie has a new friend to play with.I trust Claire 100% with Millie and the house. Whenever I need advice or a doggy chat she is there and is always helpful and commitment to what she does. She has a natural flare and talent with dog's and you can see she is passionate in what she does.",
+    carouselName: "Janet with Millie",
+  },
+  {
+    carouselImg: granchester,
+    carouselText: "We have used Claire's Canine Companions for 3 years now, for lunchtime walks on my working days and for holiday care.  I found them by bumping into one of Claire's Walkers out with dogs on the roman road and being struck by how happy they all looked.  The team is big enough to be able to cover sick leave etc and be reliable and small enough to know all the dogs personally ",
+    carouselName: "Ali (with Bear)",
+  },
+  {
+    carouselImg: granchester,
+    carouselText: "test",
+    carouselName: "test",
+  },
+  
+];
 
 const Home = () => {
   return (
     <StyledDiv>
-      <h1>Dog Walking Cambridge </h1>
-      <h1>(and surrounding villages)</h1>
-      <h2>Providing quality and lengthy dog walks out in the Cambridgeshire countryside </h2>
-      <h2>Reliable and professional</h2>
-      <h2>flexible to your requirements and the needs of your dog</h2>
-      <h2>Fully insured & first aid trained</h2>
-      <h2>Reliable and professional</h2>
-      <p>
-        Having a full time job or mobility issues can make dog parenting
-        difficult, let us 'take the lead' (Sorry!)
-      </p>
-      <p>
-        We are a close knit team of Cambridgeshire based dog walkers and
-        sitters, headed up by our founder Claire. If you are looking for a
-        reliable, professional and flexible service, to act in loco parentis for
-        your fur baby when you can't be with them, look no further. Tailored to
-        the requirements of you and your dog we cover all aspects of dog care
-        from regular walks to emergency vet visits.
-        <br />
-        We are passionate about dogs.
-        <br />
-        We understand dogs and ensure they have everything they need whilst in
-        our care, so you can focus on your working day knowing they are happy
-        and cared for. Our team structure means we can better optimise our
-        groupings according to the dog's needs and be both flexible and
-        reliable.
-      </p>
-      <p>
-        Claire's Canine Companions was started up in August 2010 by myself. I am
-        based in and around Cambridge centre and surrounding villages, Girton ,
-        Cottenham, Fulbourn, Wilbraham and Sawston. I have 4 helpers who help
-        cover the areas and home boarding. I provide a personable, friendly,
-        professional and flexible service tailored to your needs and
-        requirements for your dog's. Providing quality and lengthy dog walks out
-        in the Cambridgeshire countryside I have grown up with animals as my
-        parents are farmers, Feeding chickens, geese and keeping gun dogs aswell
-        as house dogs prominently spaniels I have a varied training background
-        Tellington T Touch Reiki massage Canine Flow Practitioner Puppy training
-        Animal Communication Dog Aggression Diploma Balance Procedure First Aid
-        Fully insured Myself and my ladies are very passionate and dedicated to
-        the work that we do, providing a healthy and happy lifestyle for your
-        dogs whilst in our care, whether it being walks, daycare or boarding All
-        boarding is done in the house rather than kennels so it is a very
-        relaxed and natural homely environment I have dedicated 10 wonderful
-        doggies years to ensuring that your dogs are in their element stress
-        free and enjoying their dog lives Exciting new beginnings in 2021 Myself
-        and my team with the help of my partner are creating a wonderful doggy
-        creche based in Downham Market 8 acres of land, based within the
-        fenland, with a sensory garden, doggy pool, chill out rooms, under floor
-        heating in the doggy rooms, groom room with a wash bath for the pooches
-        Fully cameraed so you can see what your dog has been up to. Electric and
-        password front gates, monitored at all times This is an exciting time
-        for the business with special speakers throughout the month, talks about
-        Raw Feeding, Nutrition Dog Retreat weekends Puppy Classes, and Agility
-        Services offered Half daycare, Full daycare Walks Grooming Boarding
-        Retreats Puppy classes
-      </p>
+      <h1>Dog Walking in Cambridge </h1>
+      <h2>(and surrounding villages)</h2>
+      <br />
+      <ul>
+        <li>Reliable and professional</li>
+        <li>Flexible to your requirements and the needs of your dog</li>
+        <li>Fully insured & first aid trained</li>
+      </ul>
+      <br />
+      <h2>
+        Providing quality and lengthy dog walks in the beautiful Cambridgeshire
+        countryside since 2010{" "}
+      </h2>
+      <br />
+
+      <div className="image-left">
+        <img src={autumn} alt="autumn" />
+        <h2>
+          Having a full time job, time consuming responsibilities or mobility
+          issues can make dog parenting difficult, and everybody needs time out
+          from their fur baby sometimes. Let us 'take the lead'(Sorry ! ) <br />
+          <br />
+          If you are looking for a reliable, professional and flexible service,
+          to act in loco parentis for your pup when you can't be with them, look
+          no further.
+        </h2>
+      </div>
+
+      <div className="image-right">
+        <img src={granchester} alt="granchester meadows" />
+        <h2>
+          We offer all aspects of dog care from regular walks to emergency vet
+          visits, tailored to your requirements and your dog's needs. <br /> We
+          understand dogs and ensure they have everything they need whilst in
+          our care, so you can focus on your working day knowing they are happy
+          and cared for.
+          <br /> Our team structure means we can better optimise our groupings
+          according to the dog's needs and be both flexible and reliable. We
+          will never let you down.
+        </h2>
+      </div>
+
+      <br />
+      <h2>We are passionate about dogs, and the outdoors.</h2>
+      <br />
+      <h1 className="headerCentralised">Our Services</h1>
+      <div className="services-top-row services-row">
+        <div className="servicesBox">
+          <div className="servicesBox-header">
+            <img src={paw} alt="paw" />
+            <h1>Day Care</h1>
+          </div>
+          <h2>
+            Full day doggy day care <br /> (9am to 4.30) £25
+          </h2>
+          <h2>
+            Half day doggy day care <br /> £17.50
+          </h2>
+          <Link to="/services/daycare">Read More</Link>
+        </div>
+        <div className="servicesBox">
+          <div className="servicesBox-header">
+            <img src={paw} alt="paw" />
+            <h1>Walks</h1>
+            <img className="popularStamp" src={popularStamp} alt="" />
+          </div>
+          <h2>
+            1 hour walk
+            <br />
+            £15 per hour 1 dog
+            <br />
+            £20 per hour 2 dogs
+            <br />
+            Including pick up and drop off.
+          </h2>
+          <Link to="/services/walks">Read More</Link>
+        </div>
+
+        <div className="servicesBox">
+          <div className="servicesBox-header">
+            <img src={paw} alt="" />
+            <h1>Boarding</h1>
+          </div>
+          <h2>
+            Over night stays. From a night to a fornight. All boarding is done
+            in the house rather than kennels, so it is a very relaxed and homely
+            environment
+          </h2>
+          <Link to="/services/walks">Read More</Link>
+        </div>
+      </div>
+
+      <div className="services-middle-row services-row">
+        <div className="servicesBox">
+          <div className="servicesBox-header">
+            <img src={paw} alt="paw" />
+            <h1>Grooming</h1>
+          </div>
+          <h2>test</h2>
+          <Link to="/services/daycare">Read More</Link>
+        </div>
+        <div className="servicesBox">
+          <div className="servicesBox-header">
+            <img src={paw} alt="" />
+            <h1>Puppy Classes</h1>
+          </div>
+          <h2>test</h2>
+          <Link to="/services/walks">Read More</Link>
+        </div>
+        <div className="servicesBox">
+          <div className="servicesBox-header">
+            <img src={paw} alt="paw" />
+            <h1>Retreats</h1>
+          </div>
+          <h2>test</h2>
+          <Link to="/services/walks">Read More</Link>
+        </div>
+      </div>
+
+      <div className="services-middle-row services-row">
+        <div className="servicesBox">
+          <div className="servicesBox-header">
+            <img src={paw} alt="" />
+            <h1>Vet Visits</h1>
+          </div>
+          <h2> £10 base rate plus £10 per hour </h2>
+          <Link to="/services/walks">Read More</Link>
+        </div>
+
+        <div className="servicesBox">
+          <div className="servicesBox-header">
+            <img src={paw} alt="paw" />
+            <h1>Pet Taxi</h1>
+          </div>
+          <h2>Key/home collection service. £10 base rate plus £10 per hour</h2>
+          <Link to="/services/walks">Read More</Link>
+        </div>
+        <div className="servicesBox">
+          <div className="servicesBox-header">
+            <img src={paw} alt="paw" />
+            <h1>Home Sitting</h1>
+          </div>
+          <h2>
+            Holiday walking and feeding package
+            <br />
+            Includes 1-3 walks (according to dog),
+            <br />
+            feeding, watering plants and caring for your home,
+            <br />
+            plus text updates! <br />
+            £35 per day
+          </h2>
+
+          <Link to="/services/walks">Read More</Link>
+        </div>
+      </div>
+      <div className="carouselandtext">
+        <h1 className="headerCentralised">Testimonials</h1>
+      </div>
+      <Carousel className="carousel" autoplay>
+        <div>
+          <h2>{testimonialCarousel[0].carouselName}</h2>
+          <p>{testimonialCarousel[0].carouselText}</p>
+        </div>
+        <div>
+          <h2>{testimonialCarousel[1].carouselName}</h2>
+          <p>{testimonialCarousel[1].carouselText}</p>
+        </div>
+        <div>
+          <h2>{testimonialCarousel[2].carouselName}</h2>
+          <p>{testimonialCarousel[2].carouselText}</p>
+        </div>
+        <div>
+          <h2>{testimonialCarousel[3].carouselName}</h2>
+          <p>{testimonialCarousel[3].carouselText}</p>
+        </div>
+        <div>
+          <h2>{testimonialCarousel[4].carouselName}</h2>
+          <p>{testimonialCarousel[4].carouselText}</p>
+        </div>
+        <div>
+          <h2>{testimonialCarousel[5].carouselName}</h2>
+          <p>{testimonialCarousel[5].carouselText}</p>
+        </div>
+      </Carousel>
     </StyledDiv>
   );
 };
 
 export default Home;
+
+//  {/* <div>
+//           <img src={carouselImages[2].carouselImg} alt="" />
+//         </div>
+//         <div>
+//           <img src={carouselImages[3].carouselImg} alt="" />
+//         </div>
+//         <div>
+//           <img src={carouselImages[4].carouselImg} alt="" />
+//         </div>
+//         <div>
+//           <img src={carouselImages[5].carouselImg} alt="" />
+//         </div> */}

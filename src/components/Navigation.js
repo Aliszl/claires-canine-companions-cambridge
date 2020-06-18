@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Menu } from "antd";
+import { Menu} from "antd";
+
 
 const Navigation = () => {
   return (
@@ -12,20 +13,25 @@ const Navigation = () => {
         style={{ lineHeight: "64px", backgroundColor: "#fff", display:"flex", justifyContent:"space-between" }}
       >
         <Menu.Item key="1" style={{ color: "#fff" }}>
-          <Link to="/">Home</Link>
+          <Link to="/">HOME</Link>
         </Menu.Item>
         <Menu.Item key="2">
-          <Link to="/about">About</Link>
+          <Link to="/about">ABOUT</Link>
         </Menu.Item>
         <Menu.Item key="3">
-          <Link to="/services">Services</Link>
+          <Link to="/services">PET SERVICES</Link>
         </Menu.Item>
         <Menu.Item key="4">
-          <Link to="/gallery">Gallery</Link>
+          <Link to="/gallery">GALLERY</Link>
         </Menu.Item>
+        <Menu.Item key="4">
+          <Link to="/contact">CONTACT</Link>
+        </Menu.Item>
+        
       </Menu>
     </>
   );
 };
 
 export default Navigation;
+
