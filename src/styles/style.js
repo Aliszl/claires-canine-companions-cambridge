@@ -36,6 +36,9 @@ export const HeaderStyle = styled.div`
     /* .facebook{
       max-width:30px;
     } */
+    /* .jackHeadshotDiv{
+
+    } */
   }
   /* footer img {
     width: 100%;
@@ -76,6 +79,7 @@ export const HeaderStyle = styled.div`
   @media (max-width: 768px) {
     font-size: 0.5em;
   }
+    }
 `;
 
 export const StyledDiv = styled.div`
@@ -204,6 +208,7 @@ export const StyledDiv = styled.div`
   }
 
   .carouselandtext{
+    text-align:center;
   font-size:3rem;
   margin-top:40px;
   display:flex;
@@ -213,7 +218,8 @@ export const StyledDiv = styled.div`
   .carousel{
     margin: 0, auto;
     width:32vw;
-    align:center;
+
+   text-align:center;
     .carouselpic{
 width:100%;
 border-radius:8px;
@@ -260,7 +266,7 @@ h4 {
   .carousel{
     margin: 0, auto;
     width:100vw;
-    align:center;
+   text-align:center;
     .carouselpic{
 width:100vw;
 border-radius:8px;
@@ -275,6 +281,7 @@ img{
   border-radius:8px;
 }
   }
+}
 }
 `;
 
