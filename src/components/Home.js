@@ -6,6 +6,17 @@ import paw from "../img/paw.png";
 import popularStamp from "../img/popularStamp.png";
 import { StyledDiv } from "../styles/style";
 import { Link } from "react-router-dom";
+import { Carousel } from "antd";
+
+
+// const carouselImages = [
+//   {
+//    carouselImg: autumn
+    
+//   },
+//   {
+//     carouselImg: granchester
+//   }];
 
 const Home = () => {
   return (
@@ -167,8 +178,36 @@ const Home = () => {
           <Link to="/services/walks">Read More</Link>
         </div>
       </div>
+      <div className="carouselandtext">
+        <h1 className="headerCentralised">
+          Testimonials
+        </h1>
+        </div>
+      {/* <Carousel className="carousel" autoplay>
+                   <div>
+            <img src={carouselImages[0].carouselImg} alt="" />
+          </div>
+          <div>
+            <img src={carouselImages[1].carouselImg} alt="" />
+          </div>
+       
+        </Carousel> */}
     </StyledDiv>
   );
 };
 
 export default Home;
+
+
+  //  {/* <div>
+  //           <img src={carouselImages[2].carouselImg} alt="" />
+  //         </div>
+  //         <div>
+  //           <img src={carouselImages[3].carouselImg} alt="" />
+  //         </div>
+  //         <div>
+  //           <img src={carouselImages[4].carouselImg} alt="" />
+  //         </div>
+  //         <div>
+  //           <img src={carouselImages[5].carouselImg} alt="" />
+  //         </div> */}

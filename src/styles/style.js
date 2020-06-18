@@ -1,6 +1,6 @@
 import styled from "styled-components";
 // import fullWidthDogPic from "../img/jackheadshot.jpeg";
-
+// import { Carousel } from "antd";
 export const HeaderStyle = styled.div`
   background-color: #fff;
   width: 100%;
@@ -76,7 +76,7 @@ export const HeaderStyle = styled.div`
   @media (max-width: 768px) {
     font-size: 0.5em;
   }
-`
+`;
 
 export const StyledDiv = styled.div`
   h1 {
@@ -202,4 +202,79 @@ export const StyledDiv = styled.div`
   i{
     width:100%;
   }
+
+  .carouselandtext{
+  font-size:3rem;
+  margin-top:40px;
+  display:flex;
+  h1{
+    text-align:center;
+  }
+  .carousel{
+    margin: 0, auto;
+    width:32vw;
+    align:center;
+    .carouselpic{
+width:100%;
+border-radius:8px;
+    }
+img{
+  display:flex;
+  justify-content:center;
+margin-left:100px;
+height:400px;
+  /* width: 400px; */
+  border-radius:8px;
+}
+  }
+}
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: auto;
+  line-height: 160px;
+  /* background: #364d79; */
+  overflow: hidden;
+}
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+h3{
+  text-align: center;
+  font-size:5vh;
+}
+h4 { 
+  font-size:6vw;
+}
+.text-container{
+  margin:0 auto;
+  border:5%;
+}
+.footer{
+  margin: 0 auto;
+}
+
+@media(min-width: 768px) {
+  .carouselandtext{
+    display:flex;
+    flex-direction:column-reverse;
+  .carousel{
+    margin: 0, auto;
+    width:100vw;
+    align:center;
+    .carouselpic{
+width:100vw;
+border-radius:8px;
+align-items:center;
+    }
+img{
+  display:flex;
+  justify-content:center;
+  margin-left:28vw;
+/* margin-left:100px; */
+  width: 400px;
+  border-radius:8px;
+}
+  }
+}
 `;
+
