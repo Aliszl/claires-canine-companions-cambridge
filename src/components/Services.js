@@ -1,7 +1,9 @@
 import React from "react";
 import { StyledDiv } from "../styles/style";
-import clairePic from "../img/claire.jpg";
-import claire2 from "../img/claire2.jpg";
+
+import dogrunning from "../img/dogrunningwhitebackground.jpeg";
+import daschund from "../img/daschund.jpeg";
+import flyer from "../img/flyerrelaxdogclasses.jpg";
 import { Link } from "react-router-dom";
 
 const Services = () => {
@@ -10,23 +12,42 @@ const Services = () => {
       <h2 className="headerCentralised">Services</h2>
       <p className="pcentralised">
         <ul>
-        <Link to="/services/daycare"> <li>Half daycare</li></Link>
-        <Link to="/services/daycare">  <li>Full daycare</li></Link>
-        <Link to="/services/walks">   <li>Walks</li></Link>
-        <Link to="/services/grooming">  <li>Grooming</li></Link>
-        <Link to="/services/boarding">  <li>Boarding</li></Link>
-        <Link to="/services/retreats">   <li>Retreats</li></Link>
-        <Link to="/services/puppyclasses">  <li>Puppy Classes</li></Link>
-          
-         
+          <Link to="/services/daycare">
+            {" "}
+            <li>Daycare (full or half day)</li>
+          </Link>
+          <Link to="/services/walks">
+            {" "}
+            <li>Walks</li>
+          </Link>
+          <Link to="/services/grooming">
+            {" "}
+            <li>Grooming</li>
+          </Link>
+          <Link to="/services/boarding">
+            {" "}
+            <li>Boarding</li>
+          </Link>
+          <Link to="/services/retreats">
+            {" "}
+            <li>Retreats</li>
+          </Link>
+          <Link to="/services/puppyclasses">
+            {" "}
+            <li>Puppy Classes</li>
+          </Link>
+          <Link to="/services/puppyclasses">
+            {" "}
+            <li>Holistic Therapies</li>
+          </Link>
         </ul>
       </p>
       <br />
       <div className="image-left">
-        <img src={clairePic} alt="claire" width="50%" />
+        <img src={dogrunning} alt="dog running" width="50%" />
 
         <p>
-          Meet Claire. <br /> <br />
+          Half Daycare <br /> <br />
           I grew up on my parent's working farm, surrounded by animals. I fed
           and mucked out the chickens, geese and horses and took a special
           interest in the training of gun dogs (predominently spaniels ). I have
@@ -39,10 +60,11 @@ const Services = () => {
         </p>
       </div>
       <div className="image-right">
-        <img src={claire2} alt="claire" width="50%" />
+        <img src={daschund} alt="claire" width="50%" />
 
         <p>
-          Bio: <br /> She has qualifications in canine first aid, puppy and dog
+          Full daycare
+          <br /> She has qualifications in canine first aid, puppy and dog
           training, animal communication, and has a Dog Aggression Diploma. In
           addition she is a qualified &nbsp;
           <a href={"https://ttouch.com/"}>Tellington TTouch</a>, Canine Flow and
@@ -50,39 +72,138 @@ const Services = () => {
           <br />
         </p>
       </div>
+      <div className="image-left">
+        <img src={dogrunning} alt="dog running" width="50%" />
+
+        <p>
+          Walks <br /> <br />
+          I grew up on my parent's working farm, surrounded by animals. I fed
+          and mucked out the chickens, geese and horses and took a special
+          interest in the training of gun dogs (predominently spaniels ). I have
+          qualifications in canine first aid, puppy and dog training, animal
+          communication, and I have a Dog Aggression Diploma.
+          <br /> <br /> In addition I am a qualified &nbsp;
+          <a href={"https://ttouch.com/"}>Tellington TTouch</a>, Canine Flow and
+          Reiki for Dogs practitioner.
+          <br />
+        </p>
+      </div>
+      <div className="image-right">
+        <img src={daschund} alt="claire" width="50%" />
+
+        <p>
+          Grooming
+          <br /> She has qualifications in canine first aid, puppy and dog
+          training, animal communication, and has a Dog Aggression Diploma. In
+          addition she is a qualified &nbsp;
+          <a href={"https://ttouch.com/"}>Tellington TTouch</a>, Canine Flow and
+          Reiki practitioner.
+          <br />
+        </p>
+      </div>
+      <div className="image-left">
+        <img src={dogrunning} alt="dog running" width="50%" />
+
+        <p>
+          Boarding <br /> <br />
+          Sitting £35 per day Holiday walking and feeding package Includes 1-3
+          walks (according to dog), feeding, watering plants and caring for your
+          home, plus text updates!  
+        </p>
+      </div>
+      <div className="image-right">
+        <img src={daschund} alt="claire" width="50%" />
+
+        <p>
+          Retreats
+          <br />
+          Coming soon.{" "}
+          <p>
+            {" "}
+            Comprehensive live in care. Respite for you, or rehabilitation for
+            them in a wonderful doggy creche based in Downham Market 8 acres of
+            land, based within the fenland, with a sensory garden, doggy pool,
+            chill out rooms, under floor heating in the doggy rooms, groom room
+            with a wash bath for the pooches Fully cameraed so you can see what
+            your dog has been up to. Electric and password front gates,
+            monitored at all times
+          </p>
+        </p>
+      </div>
+      <div className="image-left">
+        <img src={flyer} alt="relax class flyer" width="50%" />
+
+        <p>
+          Holistic Therapies
+          <br /> <br />I am a qualified &nbsp;
+          <a href={"https://ttouch.com/"}>Tellington TTouch</a>, Canine Flow and
+          Reiki for Dogs practitioner.
+          <br />
+          <br />
+          One to one session
+          <br />
+          Spiralwork and training techniques.
+          <br /> £25 for initial consultation. second session onwards £35 per
+          hour. <br />
+          Book a block of 5 sessions - £10 discount
+          <br />
+        </p>
+      </div>
+
       <p>
-        {" "}
-        Fully insured Myself and my ladies are very passionate and dedicated to
-        the work that we do, providing a healthy and happy lifestyle for your
-        dogs whilst in our care, whether it being walks, daycare or boarding All
-        boarding is done in the house rather than kennels so it is a very
-        relaxed and natural homely environment I have dedicated 10 wonderful
-        doggies years to ensuring that your dogs are in their element stress
-        free and enjoying their dog lives Exciting new beginnings in 2021 Myself
-        and my team with the help of my partner are creating a wonderful doggy
-        creche based in Downham Market 8 acres of land, based within the
-        fenland, with a sensory garden, doggy pool, chill out rooms, under floor
-        heating in the doggy rooms, groom room with a wash bath for the pooches
-        Fully cameraed so you can see what your dog has been up to. Electric and
-        password front gates, monitored at all times This is an exciting time
-        for the business with special speakers throughout the month, talks about
-        Raw Feeding, Nutrition Dog Retreat weekends Puppy Classes, and Agility
-        Services offered Half daycare, Full daycare Walks Grooming Boarding
-        Retreats Puppy classes We are passionate about dogs. We have been
-        providing a reliable, professional and flexible service, to act in loco
-        parentis for your fur baby when you can't be with them, look no further.
-        Tailored to the requirements of you and your dog we cover all aspects of
-        dog care from regular walks to emergency vet visits. We understand dogs
-        and ensure they have everything they need whilst in our care, so you can
-        focus on your working day knowing they are happy and cared for. Our team
-        structure means we can better optimise our groupings according to the
-        dog's needs and be both flexible and reliable. I am based in and around
-        Cambridge centre and surrounding villages, Girton , Cottenham, Fulbourn,
-        Wilbraham and Sawston. I have 4 helpers who help cover the areas and
-        home boarding. I provide a personable, friendly, professional and
-        flexible service tailored to your needs and requirements for your dog's.
-        Providing quality and lengthy dog walks out in the Cambridgeshire
-        countryside
+        Reiki For Dogs <br />
+        Dogs intuitively understand this technique and will sometimes present
+        the part of their body they would like worked on, before even starting.
+        This technique is really effective to help your dog come to terms with
+        many traumatic situations they may have encountered, for example:
+        <br />
+        <br />
+        Dog attack
+        <br />
+        Fireworks
+        <br />
+        Surgery
+        <br />
+        Veterinary Treatment
+        <br />
+        <br />
+        It relaxes and calms your pet and helps you become more bonded. It can
+        help with general relaxation, arthritis, tummy upsets, nerves and
+        behaviourial issues
+        <br /> <br />
+        This simple technique has 3 main parts: <br />
+        Breathing <br />
+        Meditation <br />
+        Spiral work using hands on or off your dog <br /> <br />
+        These medatative practices help you and your dog to be at one with each
+        other. Concentrating on the breath encourages you to let everything go,
+        except your presence and your intent to help your dog/what you would
+        like to change for them. These sessions are one to one or can be done in
+        group sessions. <br />
+        <br />
+        Stewie's Story <br />
+        Stewie's story perfectly illustrates the powerful effects possible from
+        Canine Reiki. Stewie is a timid, nervous and very reactive Shiba Inu. He
+        was caged for 4 years of his life, until a a client (Janice) rescued him
+        and took him back to her Shiba rescue to help him find a loving forever
+        home. Because of Stewie's past, he was very reactive and unpredictable
+        and with no warning or indication of his intent, he would bite. Janice
+        has never come across this and most dogs would be put to sleep, but she
+        didnt give up. She contacted me and I went to meet her and Stewie. You
+        couldn't touch him, brush him or wash him. I started to work with him
+        from afar at first, with my intent to help him relaxing and open his
+        heart chakra, and start to trust what I was doing. Using simple spiral
+        movements from a distance, concentrating on his body. Within twenty
+        mins, I could see him dropping and his eyes got heavy and he lay down
+        and started to trust me. Slowly, but carefully I moved closer to him and
+        finally after thirty minutes I was able to touch him, stroke him and
+        reassure him that I was here to help. This was only in one session, it
+        was amazing and I felt so overwhelmed that could help this beautiful
+        boy.
+        <br />
+        <a href={"https://reikifed.co.uk/reiki-healing/animal-reiki/"}>
+          More info here from UK Reiki Federation
+        </a>
       </p>
     </StyledDiv>
   );
