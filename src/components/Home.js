@@ -21,32 +21,32 @@ const testimonialCarousel = [
   },
   {
     carouselImg: granchester,
-    carouselText: "I was so relieved to find a kind and caring dog walker. Claire was recommended to me by a friend after searching long and hard. My boy is far too precious to just leave alone or with anyone! Claire was so sweet and patient whilst I put her through the mill of questions and more questions and finally a trial dog walk with me in tow! She immediately put me at ease and Hugo just adores his auntie Claire. I would highly recommend her to anyone!",
+    carouselText: "I was so relieved to find a kind and caring dog walker. Claire was recommended to me by a friend after searching long and hard. My boy is far too precious to just leave alone or with anyone! Claire was so sweet and patient whilst I put her through the mill of questions and more questions and finally a trial dog walk with me in tow! She immediately put me at ease and Hugo just adores his Auntie Claire. I would highly recommend her to anyone!",
     carouselName: "Natasha (with Hugo)  ",
   },
   {
     carouselImg: granchester,
-    carouselText: "It took me over a year to take the plunge to find a dog walker as I was so nervous to trust anyone else with my dog. Claire quickly put my mind at ease and assured me that no risks would ever be taken and that Roxy would  be in safe hands.Roxy has now been enjoying regular walks with Claire for almost years where I have peace of mind knowing that she's out having fun and socialising when I'm at work - and I always get home to a tired and happy dog.  Claire always updates me with a text to let me know how they got on and that she's safely home again. Claire's experience in Reiki is also a huge benefit, particularly on days that are too hot (or too rainy!) to walk, Roxy still gets some quality time and attention. I trust Claire completely with a key to my home and with Roxy and wouldn't hesitate for a moment to recommend her to others.",
+    carouselText: "It took me over a year to take the plunge to find a dog walker as I was so nervous to trust anyone else with my dog. Claire quickly put my mind at ease and assured me that no risks would ever be taken and that Roxy would  be in safe hands. Roxy has now been enjoying regular walks with Claire for almost 3 years and I have peace of mind knowing that she's out having fun and socialising when I'm at work - and I always get home to a tired and happy dog.  Claire always updates me with a text to let me know how they got on and that she's safely home again. Claire's experience in Reiki is also a huge benefit, particularly on days that are too hot (or too rainy!) to walk, Roxy still gets some quality time and attention. I trust Claire completely with a key to my home and with Roxy and wouldn't hesitate for a moment to recommend her to others.",
     carouselName: "Daisy (with Roxy) ",
   },
   {
     carouselImg: granchester,
-    carouselText: "Claire is part if the family now. I didn't trust anyone with Domino until I bumped into Claire and Dominio automatically took to her. Dominion boards with Claire frequently as I am away alot. She is always happy to go with her and happy when she comes back. I know she is in safe hands and Claore always gives her 100% attention and care while I am away. It gives me a sense of ease while I am away to know she is in good hands and very well looked after.",
+    carouselText: "Claire is part of the family now. I didn't trust anyone with Domino until I bumped into Claire and Dominio automatically took to her. Domino boards with Claire frequently as I am away alot. She is always happy to go with her and happy when she comes back. I know she is in safe hands and Claore always gives her 100% attention and care while I am away. It gives me a sense of ease while I am away to know she is in good hands and very well looked after.",
     carouselName: "Aislinn with Domino",
   },
   {
     carouselImg: granchester,
-    carouselText: "Claire has been our dog sitter for over 4 years and Millie just loves her to bits. Claire stays at our house and I know Millie is in good hands and the knowing that the house is being looked after. The house is always tidy and clean when we return and Millie has had a fantastic time and looks sad when she says goodbye to her.William her greyhound stays with her in the house too and there is never a problem, Millie loves him so much and they have snuggles on the sofa. Now William has passed away, her new dog Spock stays and again never any problems and Millie has a new friend to play with.I trust Claire 100% with Millie and the house. Whenever I need advice or a doggy chat she is there and is always helpful and commitment to what she does. She has a natural flare and talent with dog's and you can see she is passionate in what she does.",
+    carouselText: "Claire has been our dog sitter for over 4 years and Millie just loves her to bits. Claire stays at our house and I know Millie is in good hands and that the house is being looked after. The house is always tidy and clean when we return and Millie has had a fantastic time and looks sad when she says goodbye to her.  William her greyhound stays with her in the house too and there is never a problem, Millie loves him so much and they have snuggles on the sofa. Now William has passed away, her new dog Spock stays and again never any problems and Millie has a new friend to play with.  I trust Claire 100% with Millie and the house. Whenever I need advice or a doggy chat she is there and is always helpful and commited to what she does. She has a natural flare and talent with dog's and you can see she is passionate in what she does.",
     carouselName: "Janet with Millie",
   },
   {
     carouselImg: granchester,
-    carouselText: "We have used Claire's Canine Companions for 3 years now, for lunchtime walks on my working days and for holiday care.  I found them by bumping into one of Claire's Walkers out with dogs on the roman road and being struck by how happy they all looked.  The team is big enough to be able to cover sick leave etc and be reliable and small enough to know all the dogs personally ",
+    carouselText: "We have used Claire's Canine Companions for 3 years now, for lunchtime walks on my working days and for holiday care.  I found them by bumping into one of Claire's Walkers out with dogs on the Roman Road.  I was struck by how happy all the dogs looked.  The team is big enough to be able to cover sick leave etc and be reliable and small enough to know all the dogs personally ",
     carouselName: "Ali (with Bear)",
   },
   {
     carouselImg: granchester,
-    carouselText: "Our little shy Shihpoo, Bonnie, has been going on group walks with Claire and her team for almost 2 years. Claire spends the time and effort to not only exercise the dogs, but to pair them in size and personalities to get the most out of the sessions. We have seen vast improvements in Bonnies behaviour such as her confidence and her ability to assess new dogs and people quickly. It’s lovely to hand her over each day seeing her tail waggle and knowing she is in great hands. We highly recommend Claire’s Canine Companions.",
+    carouselText: "Our little shy Shihpoo, Bonnie, has been going on group walks with Claire and her team for almost 2 years. Claire spends the time and effort to not only exercise the dogs, but to pair them in size and personalities to get the most out of the sessions. We have seen vast improvements in Bonnie's behaviour, such as her confidence and her ability to assess new dogs and people quickly. It’s lovely to hand her over each day seeing her tail waggle and knowing she is in great hands. We highly recommend Claire’s Canine Companions.",
     carouselName: "Alice BrownJohn with Bonnie",
   },
   
@@ -211,9 +211,11 @@ const Home = () => {
           <Link to="/services/walks">Read More</Link>
         </div>
       </div>
+      <div className="carousel-container">
       <div className="carouselandtext">
         <h1 className="headerCentralised">Testimonials</h1>
       </div>
+
       <Carousel className="carousel" autoplay>
         <div>
           <h2>{testimonialCarousel[0].carouselName}</h2>
@@ -244,6 +246,7 @@ const Home = () => {
           <p>{testimonialCarousel[6].carouselText}</p>
         </div>
       </Carousel>
+      </div>
     </StyledDiv>
   );
 };
