@@ -16,10 +16,10 @@ const Navigation = () => {
           <Link to="/">HOME</Link>
         </Menu.Item>
         <Menu.Item key="2">
-          <Link to="/about">ABOUT</Link>
+          <Link to="/services">SERVICES</Link>
         </Menu.Item>
         <Menu.Item key="3">
-          <Link to="/services">PET SERVICES</Link>
+          <Link to="/about">ABOUT</Link>
         </Menu.Item>
         <Menu.Item key="4">
           <Link to="/gallery">GALLERY</Link>
