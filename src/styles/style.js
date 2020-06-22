@@ -17,11 +17,11 @@ export const AppStyled = styled.div`
     text-align: center;
     font-family: "Indie Flower", cursive;
     font-size: 4rem;
-    @media(max-width: 768px){
+    @media (max-width: 768px) {
       font-size: 2rem;
     }
   }
-  .pcentralised{
+  .pcentralised {
     text-align: center;
     font-family: "Indie Flower", cursive;
     font-size: 1rem;
@@ -31,9 +31,9 @@ export const AppStyled = styled.div`
     /* position: fixed; */
     bottom: 0;
     width: 100%;
-    max-height:10vh;
-    display:flex;
-    justify-content:space-evenly
+    max-height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
     /* .facebook{
       max-width:30px;
     } */
@@ -44,46 +44,44 @@ export const AppStyled = styled.div`
   }
   .jackHeadshot {
     width: 80vw;
-    
+
     display: table;
     position: relative;
     margin: auto;
-    overflow:hidden;
+    overflow: hidden;
   }
-  .image-left{
-    display:flex;
-    flex-direction:row;
+  .image-left {
+    display: flex;
+    flex-direction: row;
     padding-bottom: 5%;
-    img{
-      width:50%;
+    img {
+      width: 50%;
     }
 
-    @media(max-width: 768px){
-      flex-direction:column;
-      img{
-      width:100%;
-    }
-
+    @media (max-width: 768px) {
+      flex-direction: column;
+      img {
+        width: 100%;
+      }
     }
   }
-      
-    .image-right{
-    display:flex;
-    flex-direction:row-reverse;
-    img{
-      width:50%;
-    }
-    @media(max-width: 768px){
-      flex-direction:column;
-      img{
-      width:100%;
-    }
 
-  }
-  /* @media (max-width: 768px) {
+  .image-right {
+    display: flex;
+    flex-direction: row-reverse;
+    img {
+      width: 50%;
+    }
+    @media (max-width: 768px) {
+      flex-direction: column;
+      img {
+        width: 100%;
+      }
+    }
+    /* @media (max-width: 768px) {
     font-size: 0.5em;
   } */
-    }
+  }
 `;
 
 export const StyledDiv = styled.div`
@@ -95,6 +93,14 @@ export const StyledDiv = styled.div`
   overflow: hidden;
   @media (max-width: 768px) {
     padding: 20px 20px 0 20px;
+    }
+
+    .headerCentralised {
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+    font-size: 4rem;
+    @media(max-width: 768px){
+      font-size: 2rem;
     }
   h1 {
     font-family: "Indie Flower", cursive;
@@ -292,5 +298,5 @@ img{
   }
 }
 }
+  
 `;
-
