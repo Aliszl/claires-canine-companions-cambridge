@@ -85,7 +85,7 @@ export const AppStyled = styled.div`
 `;
 
 export const StyledDiv = styled.div`
- background-color: #fff;
+  background-color: #fff;
   margin: 0 0 0 0;
   width: 100%;
   padding: 90px 20px 0 20px;
@@ -93,18 +93,12 @@ export const StyledDiv = styled.div`
   overflow: hidden;
   @media (max-width: 768px) {
     padding: 20px 20px 0 20px;
-    }
+  }
 
-    .headerCentralised {
-    text-align: center;
-    font-family: "Indie Flower", cursive;
-    font-size: 4rem;
-    @media(max-width: 768px){
-      font-size: 2rem;
-    }
   h1 {
     font-family: "Indie Flower", cursive;
     font-size: 3em;
+    text-align: center;
     @media (max-width: 768px) {
       font-size: 2em;
     }
@@ -136,7 +130,6 @@ export const StyledDiv = styled.div`
       font-size: 1em;
     }
   }
- 
 
   li {
     margin: 0 0 0 80px;
@@ -170,7 +163,7 @@ export const StyledDiv = styled.div`
         width: 20%;
       }
     }
-   
+
     @media (max-width: 768px) {
       width: 96%;
       .servicesBox-header {
@@ -194,109 +187,112 @@ export const StyledDiv = styled.div`
       }
     }
   }
-     .social-media-icons{
-     
-       display:flex;
-       flex-direction:row;
-       flex-wrap:wrap;
-       justify-content:space-evenly;
-       @media (max-width: 768px) {
-        flex-direction:column;
-        justify-content:space-around;
-       }
-      }
-         .fa {
+  .social-media-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  }
+  .fa {
     padding: 40px;
     font-size: 50px;
     max-width: 200px;
     text-align: center;
     text-decoration: none;
     @media (max-width: 768px) {
-        padding:20px;
-       }
+      padding: 20px;
+    }
   }
   .fa:hover {
     opacity: 0.7;
   }
-  i{
-    width:100%;
+  i {
+    width: 100%;
   }
 
-  .carouselandtext{
-    text-align:center;
-  font-size:3rem;
-  margin-top:40px;
-  display:flex;
-  h1{
-    text-align:center;
-  }
-  .carousel{
-    margin: 0, auto;
-    width:32vw;
-
-   text-align:center;
-    .carouselpic{
-width:100%;
-border-radius:8px;
+  .carouselandtext {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 40px;
+    display: flex;
+    h1 {
+      width: 100%;
+      text-align: center;
     }
-img{
-  display:flex;
-  justify-content:center;
-margin-left:100px;
-height:400px;
-  /* width: 400px; */
-  border-radius:8px;
-}
-  }
-}
-.ant-carousel .slick-slide {
-  text-align: center;
-  height: auto;
-  line-height: 160px;
-  /* background: #364d79; */
-  overflow: hidden;
-}
-.ant-carousel .slick-slide h3 {
-  color: #fff;
-}
-h3{
-  text-align: center;
-  font-size:5vh;
-}
-h4 { 
-  font-size:6vw;
-}
-.text-container{
-  margin:0 auto;
-  border:5%;
-}
-.footer{
-  margin: 0 auto;
-}
-
-@media(min-width: 768px) {
-  .carouselandtext{
-    display:flex;
-    flex-direction:column-reverse;
-  .carousel{
-    margin: 0, auto;
-    width:100vw;
-   text-align:center;
-    .carouselpic{
-width:100vw;
-border-radius:8px;
-align-items:center;
+    .carousel-container {
+      border: 1px solid red;
     }
-img{
-  display:flex;
-  justify-content:center;
-  margin-left:28vw;
-/* margin-left:100px; */
-  width: 400px;
-  border-radius:8px;
-}
+    .carousel {
+      margin: 0, auto;
+
+      width: 32vw;
+
+      text-align: center;
+      .carouselpic {
+        width: 100%;
+        border-radius: 8px;
+      }
+      img {
+        display: flex;
+        justify-content: center;
+        margin-left: 100px;
+        height: 400px;
+        /* width: 400px; */
+        border-radius: 8px;
+      }
+    }
   }
-}
-}
-  
+  .ant-carousel .slick-slide {
+    text-align: center;
+    height: auto;
+    line-height: 160px;
+    /* background: #364d79; */
+    overflow: hidden;
+  }
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }
+  h3 {
+    text-align: center;
+    font-size: 5vh;
+  }
+  h4 {
+    font-size: 6vw;
+  }
+  .text-container {
+    margin: 0 auto;
+    border: 5%;
+  }
+  .footer {
+    margin: 0 auto;
+  }
+
+  @media (min-width: 768px) {
+    .carouselandtext {
+      display: flex;
+      flex-direction: column-reverse;
+      .carousel {
+        margin: 0, auto;
+        width: 100vw;
+        text-align: center;
+        .carouselpic {
+          width: 100vw;
+          border-radius: 8px;
+          align-items: center;
+        }
+        img {
+          display: flex;
+          justify-content: center;
+          margin-left: 28vw;
+          /* margin-left:100px; */
+          width: 400px;
+          border-radius: 8px;
+        }
+      }
+    }
+  }
 `;
