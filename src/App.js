@@ -19,7 +19,7 @@ import rowOfDogs from "./img/rowOfDogs.png";
 import Walks from "./components/Walks";
 import Boarding from "./components/Boarding";
 import Daycare from "./components/Daycare";
-import ServicesNav from "./components/ServicesNav";
+// import ServicesNav from "./components/ServicesNav";
 import Grooming from "./components/Grooming";
 import Retreats from "./components/Retreats";
 import PuppyTraining from "./components/PuppyTraining";
@@ -44,7 +44,7 @@ function App() {
               <Home />
             </Route>
             <Route exact path="/services">
-              <ServicesNav />
+              {/* <ServicesNav /> */}
               <Services />
             </Route>
             <Route exact path="/services/walks">
