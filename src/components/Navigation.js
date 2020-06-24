@@ -24,7 +24,7 @@ const Navigation = () => {
         <Menu.Item key="4">
           <Link to="/gallery">GALLERY</Link>
         </Menu.Item>
-        <Menu.Item key="4">
+        <Menu.Item key="5">
           <Link to="/contact">CONTACT</Link>
         </Menu.Item>
         

@@ -86,8 +86,7 @@ const Home = () => {
       <div className="image-right">
         <img src={granchester} alt="granchester meadows" />
         <h2>
-          We offer all aspects of dog care from regular walks to emergency vet
-          visits, tailored to your requirements and your dog's needs. <br /> We
+          We offer all aspects of dog care, tailored to your requirements and your dog's needs. <br /> We
           understand dogs and ensure they have everything they need whilst in
           our care, so you can focus on your working day knowing they are happy
           and cared for.
@@ -108,10 +107,11 @@ const Home = () => {
             <h1>Day Care</h1>
           </div>
           <h2>
-            Full day doggy day care <br /> (9am to 4.30) £25
+            Full day doggy day care <br /> (9am to 4.30) £25<br/>
+            Alternative timings may be accomodated on request 
           </h2>
           <h2>
-            Half day doggy day care <br /> £17.50
+            Half day doggy day care <br /> (9am-1pm or 12-4.30)£17.50
           </h2>
           <Link to="/services/daycare">Read More</Link>
         </div>
@@ -141,21 +141,21 @@ const Home = () => {
           <h2>
             Over night stays. From a night to a fornight. All boarding is done
             in the house rather than kennels, so it is a very relaxed and homely
-            environment
+            environment.  £35 per day
           </h2>
           <Link to="/services/walks">Read More</Link>
         </div>
       </div>
 
       <div className="services-middle-row services-row">
-        <div className="servicesBox">
+        {/* <div className="servicesBox">
           <div className="servicesBox-header">
             <img src={paw} alt="paw" />
             <h1>Grooming</h1>
           </div>
-          <h2>test</h2>
+          <h2>tbd</h2>
           <Link to="/services/daycare">Read More</Link>
-        </div>
+        </div> */}
         <div className="servicesBox">
           <div className="servicesBox-header">
             <img src={paw} alt="" />
@@ -164,22 +164,27 @@ const Home = () => {
           <h2>test</h2>
           <Link to="/services/walks">Read More</Link>
         </div>
-        <div className="servicesBox">
+        {/* <div className="servicesBox">
           <div className="servicesBox-header">
             <img src={paw} alt="paw" />
             <h1>Retreats</h1>
           </div>
           <h2>test</h2>
           <Link to="/services/walks">Read More</Link>
-        </div>
+        </div> */}
       </div>
 
       <div className="services-middle-row services-row">
-        <div className="servicesBox">
+        {/* <div className="servicesBox">
           <div className="servicesBox-header">
             <img src={paw} alt="" />
             <h1>Vet Visits</h1>
           </div>
+          <h2>
+
+          Chaperoned Vet Visits <br/>
+          with regular updates and verbal report
+          </h2>
           <h2> £10 base rate plus £10 per hour </h2>
           <Link to="/services/walks">Read More</Link>
         </div>
@@ -191,7 +196,7 @@ const Home = () => {
           </div>
           <h2>Key/home collection service. £10 base rate plus £10 per hour</h2>
           <Link to="/services/walks">Read More</Link>
-        </div>
+        </div> */}
         <div className="servicesBox">
           <div className="servicesBox-header">
             <img src={paw} alt="paw" />

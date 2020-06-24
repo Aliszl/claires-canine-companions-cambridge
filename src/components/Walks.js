@@ -28,11 +28,11 @@ the groupings of our dogs to maximise the enjoyment of everyone concerned.
 <br/>
 We collect from Cambridge City and the surrounding villages
  (We also cover Horningsea, Fulbourn, Girton, Impington).
-  Outer areas (Baldock, Milton etc) are charged at 0.40 per mile from where I live.
+  Outer areas (e.g. Milton, Sawston and Shelford ) are charged at 0.40 per mile from where I live.
   <br/><br/>
   Dog Walking Hours<br/>
 We  keep to these dog walking hours to ensure we are not out at dusk.
- Summertime - 8am - 7pm
+Summertime - 8am - 7pm
 Wintertime - 8am - 4pm
 
 
@@ -49,6 +49,7 @@ All our walkers have their favorite places, but some of our regular walks includ
  The Roman road, 
  Anglesey Abbey, 
  Impington Woods, 
+ Thetford Forest,
  and walks in Haslingfield, Wilbraham, Lode.
 
 
