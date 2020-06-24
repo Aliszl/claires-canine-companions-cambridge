@@ -4,7 +4,8 @@ const Walks = () => {
     return (
         <StyledDiv>
           <h2>Retreats</h2>
-       <p>Exciting new beginnings in 2021. Myself and my team with the help of my partner are creating a wonderful doggy creche based in Downham Market
+       <p>Exciting new beginnings in 2021.
+          My partner, the team and I are creating a wonderful doggy creche based in Downham Market
 
 8 acres of land, based within the fenland, 
 with a sensory garden,

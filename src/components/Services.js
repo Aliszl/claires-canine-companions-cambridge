@@ -3,6 +3,7 @@ import { StyledDiv } from "../styles/style";
 
 import dogrunning from "../img/dogrunningwhitebackground.jpeg";
 import daschund from "../img/daschund.jpeg";
+import jumping from "../img/jumpingdog.jpeg";
 import flyer from "../img/flyerrelaxdogclasses.jpg";
 import { Link } from "react-router-dom";
 
@@ -12,7 +13,7 @@ const Services = () => {
       <h2 className="headerCentralised">Services</h2>
       <p className="pcentralised">
         <ul>
-        <Link to="/services/walks">
+          <Link to="/services/walks">
             {" "}
             <li>Walks</li>
           </Link>
@@ -24,7 +25,7 @@ const Services = () => {
             {" "}
             <li>Daycare (full or half day)</li>
           </Link>
-        
+
           <Link to="/services/boarding">
             {" "}
             <li>Boarding</li>
@@ -37,7 +38,7 @@ const Services = () => {
             {" "}
             <li>Retreats</li>
           </Link> */}
-        
+
           <Link to="/services/puppyclasses">
             {" "}
             <li>Puppy Classes</li>
@@ -54,14 +55,24 @@ const Services = () => {
 
         <p>
           Walks <br /> <br />
-          I grew up on my parent's working farm, surrounded by animals. I fed
-          and mucked out the chickens, geese and horses and took a special
-          interest in the training of gun dogs (predominently spaniels ). I have
-          qualifications in canine first aid, puppy and dog training, animal
-          communication, and I have a Dog Aggression Diploma.
-          <br /> <br /> In addition I am a qualified &nbsp;
-          <a href={"https://ttouch.com/"}>Tellington TTouch</a>, Canine Flow and
-          Reiki for Dogs practitioner.
+          1 hour walk
+          <br />
+          £15 per hour (1 dog)
+          <br />
+          £20 per hour (2 dogs)
+          <br />
+          <br />
+          An hours walk, means a full hours walk. We do not cut corners.
+          <br />
+          <br />
+          We walk a maximum of 6 dogs at one time, though individual walks can
+          sometimes be accomodated.
+          <br />
+          We put a lot of thought into the groupings of our dogs to maximise the
+          enjoyment of everyone concerned.
+          <br />
+          We collect from Cambridge City and the surrounding villages.
+          <br />
           <br />
         </p>
       </div>
@@ -69,16 +80,22 @@ const Services = () => {
         <img src={daschund} alt="claire" width="50%" />
 
         <p>
-          Grooming
-          <br /> She has qualifications in canine first aid, puppy and dog
-          training, animal communication, and has a Dog Aggression Diploma. In
-          addition she is a qualified &nbsp;
-          <a href={"https://ttouch.com/"}>Tellington TTouch</a>, Canine Flow and
-          Reiki practitioner.
-          <br />
+          Daycare, boarding, Home sitting and retreats
+          <br /> <br />
+          We offer full and half daycare to support working families.  We also offer 
+          boarding in our own homes when you go on holiday or need overnight care.
+          Boarding is done in our own homes,and unlike kennels
+          is a relaxed and familiar environment.  We can also accomodate coming in to your home. 
+           Our home sitting service suits some people better.  It is a walking and feeding package that includes
+            <br />
+             1-3 walks (according to dog),
+            <br />
+            feeding, watering plants and caring for your home,
+            <br />
+            plus text updates! <br />
         </p>
       </div>
-      <div className="image-left">
+      {/* <div className="image-left">
         <img src={dogrunning} alt="dog running" width="50%" />
 
         <p>
@@ -93,12 +110,12 @@ const Services = () => {
           Reiki for Dogs practitioner.
           <br />
         </p>
-      </div>
-      <div className="image-right">
-        <img src={daschund} alt="claire" width="50%" />
+      </div> */}
+      {/* <div className="image-right">
+        <img src={daschund} alt="daschund" width="50%" />
 
         <p>
-          Full daycare
+          Grooming
           <br /> She has qualifications in canine first aid, puppy and dog
           training, animal communication, and has a Dog Aggression Diploma. In
           addition she is a qualified &nbsp;
@@ -106,9 +123,9 @@ const Services = () => {
           Reiki practitioner.
           <br />
         </p>
-      </div>
-     
-      <div className="image-left">
+      </div> */}
+
+      {/* <div className="image-left">
         <img src={dogrunning} alt="dog running" width="50%" />
 
         <p>
@@ -117,9 +134,9 @@ const Services = () => {
           walks (according to dog), feeding, watering plants and caring for your
           home, plus text updates!  
         </p>
-      </div>
-      <div className="image-right">
-        <img src={daschund} alt="claire" width="50%" />
+      </div> */}
+      <div className="image-left">
+        <img src={jumping} alt="jumping" width="50%" />
 
         <p>
           Retreats
