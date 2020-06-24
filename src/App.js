@@ -86,7 +86,7 @@ function App() {
         </Content>
       </Layout>
       <footer>
-        <div classname="jackHeadshotDiv">
+        <div className="jackHeadshotDiv">
           <img className="jackHeadshot" src={fullWidthDogPic} alt="dog" />
 
       

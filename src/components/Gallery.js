@@ -23,7 +23,6 @@ import trio from "../img/trio.jpg";
 import labs from "../img/labs.jpg";
 import rainbow from "../img/rainbow.jpg";
 import terrier from "../img/terrier.jpg";
-
 import incar from "../img/trio.jpg";
 import allsmall from "../img/labs.jpg";
 

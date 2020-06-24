@@ -12,26 +12,32 @@ const Services = () => {
       <h2 className="headerCentralised">Services</h2>
       <p className="pcentralised">
         <ul>
+        <Link to="/services/walks">
+            {" "}
+            <li>Walks</li>
+          </Link>
+          {/* <Link to="/services/grooming">
+            {" "}
+            <li>Grooming</li>
+          </Link> */}
           <Link to="/services/daycare">
             {" "}
             <li>Daycare (full or half day)</li>
           </Link>
-          <Link to="/services/walks">
-            {" "}
-            <li>Walks</li>
-          </Link>
-          <Link to="/services/grooming">
-            {" "}
-            <li>Grooming</li>
-          </Link>
+        
           <Link to="/services/boarding">
             {" "}
             <li>Boarding</li>
           </Link>
-          <Link to="/services/retreats">
+          {/* <Link to="/services/boarding">
+            {" "}
+            <li>Home Sitting</li>
+          </Link> */}
+          {/* <Link to="/services/retreats">
             {" "}
             <li>Retreats</li>
-          </Link>
+          </Link> */}
+        
           <Link to="/services/puppyclasses">
             {" "}
             <li>Puppy Classes</li>
@@ -43,35 +49,6 @@ const Services = () => {
         </ul>
       </p>
       <br />
-      <div className="image-left">
-        <img src={dogrunning} alt="dog running" width="50%" />
-
-        <p>
-          Half Daycare <br /> <br />
-          I grew up on my parent's working farm, surrounded by animals. I fed
-          and mucked out the chickens, geese and horses and took a special
-          interest in the training of gun dogs (predominently spaniels ). I have
-          qualifications in canine first aid, puppy and dog training, animal
-          communication, and I have a Dog Aggression Diploma.
-          <br /> <br /> In addition I am a qualified &nbsp;
-          <a href={"https://ttouch.com/"}>Tellington TTouch</a>, Canine Flow and
-          Reiki for Dogs practitioner.
-          <br />
-        </p>
-      </div>
-      <div className="image-right">
-        <img src={daschund} alt="claire" width="50%" />
-
-        <p>
-          Full daycare
-          <br /> She has qualifications in canine first aid, puppy and dog
-          training, animal communication, and has a Dog Aggression Diploma. In
-          addition she is a qualified &nbsp;
-          <a href={"https://ttouch.com/"}>Tellington TTouch</a>, Canine Flow and
-          Reiki practitioner.
-          <br />
-        </p>
-      </div>
       <div className="image-left">
         <img src={dogrunning} alt="dog running" width="50%" />
 
@@ -101,6 +78,36 @@ const Services = () => {
           <br />
         </p>
       </div>
+      <div className="image-left">
+        <img src={dogrunning} alt="dog running" width="50%" />
+
+        <p>
+          Half Daycare <br /> <br />
+          I grew up on my parent's working farm, surrounded by animals. I fed
+          and mucked out the chickens, geese and horses and took a special
+          interest in the training of gun dogs (predominently spaniels ). I have
+          qualifications in canine first aid, puppy and dog training, animal
+          communication, and I have a Dog Aggression Diploma.
+          <br /> <br /> In addition I am a qualified &nbsp;
+          <a href={"https://ttouch.com/"}>Tellington TTouch</a>, Canine Flow and
+          Reiki for Dogs practitioner.
+          <br />
+        </p>
+      </div>
+      <div className="image-right">
+        <img src={daschund} alt="claire" width="50%" />
+
+        <p>
+          Full daycare
+          <br /> She has qualifications in canine first aid, puppy and dog
+          training, animal communication, and has a Dog Aggression Diploma. In
+          addition she is a qualified &nbsp;
+          <a href={"https://ttouch.com/"}>Tellington TTouch</a>, Canine Flow and
+          Reiki practitioner.
+          <br />
+        </p>
+      </div>
+     
       <div className="image-left">
         <img src={dogrunning} alt="dog running" width="50%" />
 
