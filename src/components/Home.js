@@ -148,14 +148,7 @@ const Home = () => {
       </div>
 
       <div className="services-middle-row services-row">
-        {/* <div className="servicesBox">
-          <div className="servicesBox-header">
-            <img src={paw} alt="paw" />
-            <h1>Grooming</h1>
-          </div>
-          <h2>tbd</h2>
-          <Link to="/services/daycare">Read More</Link>
-        </div> */}
+     
         <div className="servicesBox">
           <div className="servicesBox-header">
             <img src={paw} alt="" />
@@ -171,33 +164,19 @@ const Home = () => {
           </div>
           <h2>test</h2>
           <Link to="/services/walks">Read More</Link>
-        </div> */}
-      </div>
-
-      <div className="services-middle-row services-row">
-        <div className="servicesBox">
-          <div className="servicesBox-header">
-            <img src={paw} alt="" />
-            <h1>Vet Visits</h1>
-          </div>
-          <h2>
-
-          Chaperoned Vet Visits <br/>
-          with regular updates and verbal report
-          </h2>
-          <h2> £10 base rate plus £10 per hour </h2>
-          <Link to="/services/walks">Read More</Link>
         </div>
-
-        <div className="servicesBox">
+            <div className="servicesBox">
           <div className="servicesBox-header">
             <img src={paw} alt="paw" />
-            <h1>Pet Taxi</h1>
+            <h1>Grooming</h1>
           </div>
-          <h2>Key/home collection service. £10 base rate plus £10 per hour</h2>
-          <Link to="/services/walks">Read More</Link>
-        </div>
-        <div className="servicesBox">
+          <h2>tbd</h2>
+          <Link to="/services/daycare">Read More</Link>
+        </div> */}
+     
+
+    
+      <div className="servicesBox">
           <div className="servicesBox-header">
             <img src={paw} alt="paw" />
             <h1>Home Sitting</h1>
@@ -215,7 +194,22 @@ const Home = () => {
 
           <Link to="/services/walks">Read More</Link>
         </div>
+            <div className="servicesBox">
+          <div className="servicesBox-header">
+            <img src={paw} alt="" />
+            <h1>Holistic Treatments</h1>
+          </div>
+         
+          <h2> £10 base rate plus £10 per hour </h2>
+          <Link to="/services/walks">Read More</Link>
+        </div>
+        
+    
+
+      
       </div>
+
+
       <div className="carousel-container">
       <div className="carouselandtext">
         <h1 className="headerCentralised">Testimonials</h1>
@@ -258,15 +252,4 @@ const Home = () => {
 
 export default Home;
 
-//  {/* <div>
-//           <img src={carouselImages[2].carouselImg} alt="" />
-//         </div>
-//         <div>
-//           <img src={carouselImages[3].carouselImg} alt="" />
-//         </div>
-//         <div>
-//           <img src={carouselImages[4].carouselImg} alt="" />
-//         </div>
-//         <div>
-//           <img src={carouselImages[5].carouselImg} alt="" />
-//         </div> */}
+
