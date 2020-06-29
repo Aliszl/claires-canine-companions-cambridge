@@ -44,7 +44,7 @@ const Services = () => {
             {" "}
             <li>Puppy Classes</li>
           </Link>
-          <Link to="/services/puppyclasses">
+          <Link to="/services/holistic">
             {" "}
             <li>Holistic Therapies</li>
           </Link>
