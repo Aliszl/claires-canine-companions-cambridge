@@ -175,7 +175,7 @@ const Home = () => {
       </div>
 
       <div className="services-middle-row services-row">
-        {/* <div className="servicesBox">
+        <div className="servicesBox">
           <div className="servicesBox-header">
             <img src={paw} alt="" />
             <h1>Vet Visits</h1>
@@ -196,7 +196,7 @@ const Home = () => {
           </div>
           <h2>Key/home collection service. £10 base rate plus £10 per hour</h2>
           <Link to="/services/walks">Read More</Link>
-        </div> */}
+        </div>
         <div className="servicesBox">
           <div className="servicesBox-header">
             <img src={paw} alt="paw" />
