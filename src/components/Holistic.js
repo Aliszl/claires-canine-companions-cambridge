@@ -20,9 +20,10 @@ const HomeSitting = () => {
          <a href={"https://ttouch.com/"}>Tellington TTouch</a>, Canine Flow and
           &nbsp;
           <a href={"https://reikifed.co.uk/reiki-healing/animal-reiki/"}>
-            Reiki for Dogs
+            Reiki for Dogs.
           </a>{" "}
           &nbsp;
+          <br />
           <br />
           Consultations <br/><br />
           One to one session

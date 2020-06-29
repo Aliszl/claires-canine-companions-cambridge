@@ -8,12 +8,12 @@ const Boarding = () => {
           so it is a very relaxed, homely environment
           <br/> <br/> £35 per 24 hours <br/>  <br/>We will 
           continue to offer one on one domestic boarding where that is the best fit, 
-          but to extend our service we also have exciting future plans 
-          to develop a property to extend our capacity, using our skills and knowledge about what
+          but to extend our service and capacity we also have exciting future plans 
+          to develop a property to provide boarding and daycare, that is a world away from kennels, using our skills and knowledge about what
            makes a happy dog.   
            <br/> <br/>
          This is a longtime lifestyle dream and something of a passion project. <br/>
-          My partner and I, are purchasing a wonderful home,
+          My partner and I are purchasing a wonderful new home,
           our own slice of Fenland countryside heaven, near Downham Market. 
           We are developing a  doggy creche nestled in 8 acres of land entirely devoted to dogs.
           Meadows, a sensory garden, doggy pool, chill out rooms and socialising spaces, 
