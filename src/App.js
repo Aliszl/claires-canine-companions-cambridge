@@ -23,6 +23,7 @@ import Daycare from "./components/Daycare";
 import Grooming from "./components/Grooming";
 import Retreats from "./components/Retreats";
 import PuppyTraining from "./components/PuppyTraining";
+import HomeSitting from "./components/HomeSitting";
 
 const { Header, Content } = Layout;
 
@@ -65,8 +66,8 @@ function App() {
             <Route exact path="/services/puppyclasses">
               <PuppyTraining />
             </Route>
-            <Route exact path="/services/keycollection">
-              <Home />
+            <Route exact path="/services/homesitting">
+              <HomeSitting />
             </Route>
             <Route exact path="/gallery">
               <Gallery />

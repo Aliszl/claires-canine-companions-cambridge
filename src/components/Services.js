@@ -31,10 +31,10 @@ const Services = () => {
             {" "}
             <li>Boarding</li>
           </Link>
-          {/* <Link to="/services/boarding">
+          <Link to="/services/homesitting">
             {" "}
             <li>Home Sitting</li>
-          </Link> */}
+          </Link>
           {/* <Link to="/services/retreats">
             {" "}
             <li>Retreats</li>

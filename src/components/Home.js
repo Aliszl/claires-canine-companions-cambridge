@@ -107,11 +107,13 @@ const Home = () => {
             <h1>Day Care</h1>
           </div>
           <h2>
-            Full day doggy day care <br /> (9am to 4.30) £25<br/>
-            Alternative timings may be accomodated on request 
+            Full day <br /> (9am to 4.30) <br />£25<br/>
+           
           </h2>
           <h2>
-            Half day doggy day care <br /> (9am-1pm or 12-4.30)£17.50
+            Half day <br /> £17.50<br />
+            (9am-1pm/12-4.30)<br/>
+            Alternative timings on request 
           </h2>
           <Link to="/services/daycare">Read More</Link>
         </div>
@@ -123,12 +125,13 @@ const Home = () => {
           </div>
           <h2>
             1 hour walk
+            <br />    <br />
+             1 dog: £15 
             <br />
-            £15 per hour 1 dog
-            <br />
-            £20 per hour 2 dogs
-            <br />
-            Including pick up and drop off.
+            2 dogs: £20
+            <br />    <br />
+            Includes pick up and drop off.
+            <br />    <br />
           </h2>
           <Link to="/services/walks">Read More</Link>
         </div>
@@ -139,25 +142,70 @@ const Home = () => {
             <h1>Boarding</h1>
           </div>
           <h2>
-            Over night stays. From a night to a fornight. All boarding is done
-            in the house rather than kennels, so it is a very relaxed and homely
-            environment.  £35 per day
+            Full day and over night stay  <br /> <br />   
+            £35 
+            <br />    <br /> Includes all care and walks  <br />    <br />
+              
           </h2>
-          <Link to="/services/walks">Read More</Link>
+          <Link to="/services/boarding">Read More</Link>
         </div>
       </div>
 
       <div className="services-middle-row services-row">
+      <div className="servicesBox">
+          <div className="servicesBox-header">
+            <img src={paw} alt="paw" />
+            <h1>Home Sitting</h1>
+          </div>
+          <h2>
+            Holiday Package
+            <br />
+          1-3 walks 
+            <br />
+            feeding, watering plants and caring for your home,
+            <br />
+            plus text updates! <br />
+            £35 per day
+          </h2>
+
+          <Link to="/services/homesitting">Read More</Link>
+        </div>
      
         <div className="servicesBox">
           <div className="servicesBox-header">
             <img src={paw} alt="" />
-            <h1>Puppy Classes</h1>
+            <h1>Classes/ Training</h1>
           </div>
-          <h2>test</h2>
-          <Link to="/services/walks">Read More</Link>
+          <h2> Private and group classes<br/>
+            Puppy training<br/>
+            Dog Training<br/>
+            
+            Canine Flow<br/><br/>
+            Price on application
+             </h2>
+          <Link to="/services/puppyclasses">Read More</Link>
         </div>
-        {/* <div className="servicesBox">
+
+     
+            <div className="servicesBox">
+          <div className="servicesBox-header">
+            <img src={paw} alt="" />
+            <h1>Holistic Treatment</h1>
+          </div>
+         
+          <h2> 
+            Tellington TTouch<br/>
+            Dog Reiki<br/>
+            Canine flow<br/>
+            Hypnotherapy<br/><br/>
+            £10 base rate plus £10 per hour </h2>
+          <Link to="/services/puppyclasses">Read More</Link>
+        </div>
+        
+        {/* 
+        //Retreats
+        
+        <div className="servicesBox">
           <div className="servicesBox-header">
             <img src={paw} alt="paw" />
             <h1>Retreats</h1>
@@ -165,6 +213,8 @@ const Home = () => {
           <h2>test</h2>
           <Link to="/services/walks">Read More</Link>
         </div>
+
+        //Grooming
             <div className="servicesBox">
           <div className="servicesBox-header">
             <img src={paw} alt="paw" />
@@ -173,37 +223,6 @@ const Home = () => {
           <h2>tbd</h2>
           <Link to="/services/daycare">Read More</Link>
         </div> */}
-     
-
-    
-      <div className="servicesBox">
-          <div className="servicesBox-header">
-            <img src={paw} alt="paw" />
-            <h1>Home Sitting</h1>
-          </div>
-          <h2>
-            Holiday walking and feeding package
-            <br />
-            Includes 1-3 walks (according to dog),
-            <br />
-            feeding, watering plants and caring for your home,
-            <br />
-            plus text updates! <br />
-            £35 per day
-          </h2>
-
-          <Link to="/services/walks">Read More</Link>
-        </div>
-            <div className="servicesBox">
-          <div className="servicesBox-header">
-            <img src={paw} alt="" />
-            <h1>Holistic Treatments</h1>
-          </div>
-         
-          <h2> £10 base rate plus £10 per hour </h2>
-          <Link to="/services/walks">Read More</Link>
-        </div>
-        
     
 
       

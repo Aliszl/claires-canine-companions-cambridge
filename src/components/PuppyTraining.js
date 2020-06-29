@@ -3,8 +3,10 @@ import {StyledDiv} from "../styles/style";
 const PuppyTraining = () => {
     return (
         <StyledDiv>
-          <h2>Puppy Classes/ training</h2>
-       
+          <h2>Puppy Classes/ Dog Training</h2>
+      <p>
+      Private classes available on request, group classes scheduled on a regular basis
+        </p> 
         </StyledDiv>
       );
     };
