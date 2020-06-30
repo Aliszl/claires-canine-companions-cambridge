@@ -7,13 +7,12 @@ export const AppStyled = styled.div`
   }
   background-color: #fff;
   width: 100%;
-  /* fixed hover button */
 
-  /* body{
-	font-family:Verdana, Geneva, sans-serif;
-	font-size:18px;
-	background-color:#CCC;
-} */
+  body {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 18px;
+    background-color: #ccc;
+  }
 
   .float {
     position: fixed;
@@ -64,21 +63,76 @@ export const AppStyled = styled.div`
     font-family: "Indie Flower", cursive;
     font-size: 1rem;
   }
+
+  .lefthanded {
+    display: flex;
+    flex-direction: row;
+
+    .image-left {
+      width: 50%;
+      padding-bottom: 5%;
+
+    }
+      .text-right {
+        width: 50%;
+        padding: 30px;
+      }
+  }
+  .righthanded{
+      display: flex;
+    flex-direction: row-reverse;
+    .image-right {
+      width: 50%;
+      
+    }
+    .text-left {
+      width: 50%;
+      padding: 30px;
+    }
+    }
+  @media (max-width: 768px) {
+   
+      flex-direction: column;
+
+      .lefthanded {
+        display: flex;
+    flex-direction: column;
+    .image-left {
+      width: 100%
+    }
+    .text-right{
+      width: 100%;
+      padding: 10px;
+  
+      }
+      }
+   .righthanded{
+      display: flex;
+    flex-direction: column;
+    .image-right {
+      width: 100%;
+      
+    }
+    .text-left {
+      width: 100%;
+      padding: 20px;
+    }
+    }
+   
+    
+    }
+  }
+ 
+
+  
+  }
   footer {
-    /* background-image:url("jackheadshot.jpeg") */
-    /* position: fixed; */
+
     bottom: 0;
     width: 100%;
     max-height: 10vh;
     display: flex;
     justify-content: space-evenly;
-    /* .facebook{
-      max-width:30px;
-    } */
-    /* .jackHeadshotDiv{
-      width:100%;
-     max-height:20vh;
-    } */
   }
   .jackHeadshot {
     width: 80vw;
@@ -87,38 +141,6 @@ export const AppStyled = styled.div`
     position: relative;
     margin: auto;
     overflow: hidden;
-  }
-  .image-left {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 5%;
-    img {
-      width: 50%;
-    }
-
-    @media (max-width: 768px) {
-      flex-direction: column;
-      img {
-        width: 100%;
-      }
-    }
-  }
-
-  .image-right {
-    display: flex;
-    flex-direction: row-reverse;
-    img {
-      width: 50%;
-    }
-    @media (max-width: 768px) {
-      flex-direction: column;
-      img {
-        width: 100%;
-      }
-    }
-    /* @media (max-width: 768px) {
-    font-size: 0.5em;
-  } */
   }
 `;
 
@@ -190,7 +212,6 @@ export const StyledDiv = styled.div`
   }
   .servicesBox {
     background-color: #f2f2f2;
-    /* border:1px solid blue; */
     margin: 3px;
     width: 30%;
     .servicesBox-header {
@@ -253,7 +274,6 @@ export const StyledDiv = styled.div`
         justify-content: center;
         margin-left: 100px;
         height: 400px;
-        /* width: 400px; */
         border-radius: 8px;
       }
     }
@@ -300,7 +320,6 @@ export const StyledDiv = styled.div`
           display: flex;
           justify-content: center;
           margin-left: 28vw;
-          /* margin-left:100px; */
           width: 400px;
           border-radius: 8px;
         }
@@ -312,14 +331,14 @@ export const StyledDiv = styled.div`
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
-      .top-row {
-        display: flex;
-        flex-direction: row;
-      }
-      .bottom-row {
-        display: flex;
-        flex-direction: row;
-      }
+    .top-row {
+      display: flex;
+      flex-direction: row;
+    }
+    .bottom-row {
+      display: flex;
+      flex-direction: row;
+    }
     @media (max-width: 768px) {
       flex-direction: column;
       justify-content: space-around;
@@ -334,7 +353,6 @@ export const StyledDiv = styled.div`
     }
 
     .fa {
-      /* flex-wrap:wrap; */
       padding: 40px;
       font-size: 20px;
       max-width: 300px;

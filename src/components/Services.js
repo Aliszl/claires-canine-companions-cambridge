@@ -18,10 +18,7 @@ const Services = () => {
             {" "}
             <li>Walks</li>
           </Link>
-          {/* <Link to="/services/grooming">
-            {" "}
-            <li>Grooming</li>
-          </Link> */}
+         
           <Link to="/services/daycare">
             {" "}
             <li>Daycare (full or half day)</li>
@@ -35,10 +32,7 @@ const Services = () => {
             {" "}
             <li>Home Sitting</li>
           </Link>
-          {/* <Link to="/services/retreats">
-            {" "}
-            <li>Retreats</li>
-          </Link> */}
+        
 
           <Link to="/services/puppyclasses">
             {" "}
@@ -52,9 +46,9 @@ const Services = () => {
       </p>
       <br />
 
-      <div className="image-left">
-        <img src={dogrunning} alt="dog running" width="50%" />
-
+      <div className="lefthanded">
+        <img className="image-left" src={dogrunning} alt="dog running" width="50%" />
+        <div className="text-right">
         <p>
           Walks <br /> <br />
           1 hour walk
@@ -77,11 +71,12 @@ const Services = () => {
           <br />
           <br />
         </p>
+        </div>
       </div>
 
-      <div className="image-right">
-        <img src={daschund} alt="claire" width="50%" />
-
+      <div className="righthanded">
+        <img className="image-right" src={daschund} alt="daschund"  />
+        <div className="text-left">
         <p>
           Daycare, boarding, Home sitting and retreats
           <br /> <br />
@@ -98,11 +93,12 @@ const Services = () => {
           <br />
           plus text updates! <br />
         </p>
+        </div>
       </div>
 
-      <div className="image-left">
-        <img src={jumping} alt="dog running" width="50%" />
-
+      <div className="lefthanded">
+        <img className="image-left" src={jumping} alt="dog running" width="50%" />
+        <div className="text-right">
         <p>
           Retreats <br /> <br />
           Coming soon...
@@ -118,11 +114,12 @@ const Services = () => {
           <br />
           <br />
         </p>
+        </div>
       </div>
 
-      <div className="image-right">
-        <img src={flyer} alt="relax class flyer" width="50%" />
-
+      <div className="righthanded">
+        <img className="image-right" src={flyer} alt="relax class flyer"/>
+        <div className="text-left">
         <p>
           Holistic Therapies
           <br /> <br />I am a qualified &nbsp;
@@ -142,6 +139,7 @@ const Services = () => {
           Book a block of 5 sessions - £10 discount
           <br />
         </p>
+        </div>
       </div>
 
       <div>
