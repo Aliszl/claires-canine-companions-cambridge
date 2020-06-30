@@ -10,141 +10,134 @@ import { Link } from "react-router-dom";
 const Services = () => {
   return (
     <StyledDiv style={{ background: "#fff" }}>
-  
-      <h2 className="headerCentralised">Services</h2>
-      <p className="pcentralised">
-        <ul>
-          <Link to="/services/walks">
-            {" "}
-            <li>Walks</li>
-          </Link>
-          {/* <Link to="/services/grooming">
-            {" "}
-            <li>Grooming</li>
-          </Link> */}
-          <Link to="/services/daycare">
-            {" "}
-            <li>Daycare (full or half day)</li>
-          </Link>
-
-          <Link to="/services/boarding">
-            {" "}
-            <li>Boarding</li>
-          </Link>
-          <Link to="/services/homesitting">
-            {" "}
-            <li>Home Sitting</li>
-          </Link>
-          {/* <Link to="/services/retreats">
-            {" "}
-            <li>Retreats</li>
-          </Link> */}
-
-          <Link to="/services/puppyclasses">
-            {" "}
-            <li>Puppy Classes</li>
-          </Link>
-          <Link to="/services/holistic">
-            {" "}
-            <li>Holistic Therapies</li>
-          </Link>
-        </ul>
-      </p>
-      <br />
-
-      <div className="image-left">
-        <img src={dogrunning} alt="dog running" width="50%" />
-
-        <p>
-          Walks <br /> <br />
-          1 hour walk
-          <br />
-          £15 per hour (1 dog)
-          <br />
-          £20 per hour (2 dogs)
-          <br />
-          <br />
-          An hours walk, means a full hours walk. We do not cut corners.
-          <br />
-          <br />
-          We walk a maximum of 6 dogs at one time, though individual walks can
-          sometimes be accomodated.
-          <br />
-          We put a lot of thought into the groupings of our dogs to maximise the
-          enjoyment of everyone concerned.
-          <br />
-          We collect from Cambridge City and the surrounding villages.
-          <br />
-          <br />
-        </p>
-      </div>
-
-      <div className="image-right">
-        <img src={daschund} alt="claire" width="50%" />
-
-        <p>
-          Daycare, boarding, Home sitting and retreats
-          <br /> <br />
-          We offer full and half daycare to support working families. We also
-          offer boarding in our own homes when you go on holiday or need
-          overnight care. Boarding is done in our own homes,and unlike kennels
-          is a relaxed and familiar environment. We can also accomodate coming
-          in to your home. Our home sitting service suits some people better. It
-          is a walking and feeding package that includes
-          <br />
-          1-3 walks (according to dog),
-          <br />
-          feeding, watering plants and caring for your home,
-          <br />
-          plus text updates! <br />
-        </p>
-      </div>
-
-      <div className="image-left">
-        <img src={jumping} alt="dog running" width="50%" />
-
-        <p>
-          Retreats <br /> <br />
-          Coming soon...
-          <br />
-          All our passion for dogs is being chanelled into developing a comprehensive live in care
-          ,provided in a wonderful doggy creche based in rural Fenland near Downham Market.
-           8 acres of land devoted to exercise and exploring for the dogs, a sensory garden, doggy pool,
-          chill out rooms, groom room with a wash bath. 
-          Doggy rooms with under floor heating.
-          
-          All areas covered by webcam so you can see what your dog is up to. 
-          High security electric, password access front gates, monitored at all times
-          <br />
-          <br />
-        </p>
-      </div>
-
-      <div className="image-right">
-        <img src={flyer} alt="relax class flyer" width="50%" />
-
-        <p>
-          Holistic Therapies
-          <br /> <br />I am a qualified &nbsp;
-          <a href={"https://ttouch.com/"}>Tellington TTouch</a>, Canine Flow and
-          &nbsp;
-          <a href={"https://reikifed.co.uk/reiki-healing/animal-reiki/"}>
-            Reiki for Dogs
-          </a>{" "}
-          &nbsp; practitioner.
-          <br />
-          <br />
-          One to one session
-          <br />
-          Spiralwork and training techniques.
-          <br /> £25 for initial consultation. second session onwards £35 per
-          hour. <br />
-          Book a block of 5 sessions - £10 discount
-          <br />
-        </p>
-      </div>
-
       <div>
+        <h2 className="headerCentralised">Services</h2>
+        <p className="pcentralised">
+          <ul>
+            <Link to="/services/walks">
+              {" "}
+              <li>Walks</li>
+            </Link>
+
+            <Link to="/services/daycare">
+              {" "}
+              <li>Daycare (full or half day)</li>
+            </Link>
+
+            <Link to="/services/boarding">
+              {" "}
+              <li>Boarding</li>
+            </Link>
+            <Link to="/services/homesitting">
+              {" "}
+              <li>Home Sitting</li>
+            </Link>
+
+            <Link to="/services/puppyclasses">
+              {" "}
+              <li>Puppy Classes</li>
+            </Link>
+            <Link to="/services/holistic">
+              {" "}
+              <li>Holistic Therapies</li>
+            </Link>
+          </ul>
+        </p>
+      </div>
+      <br />
+      <div className="lefthanded">
+        <img className="image-left" src={dogrunning} alt="dog running" />
+        <div className="text-right">
+          <p>
+            Walks <br /> <br />
+            1 hour walk
+            <br />
+            £15 per hour (1 dog)
+            <br />
+            £20 per hour (2 dogs)
+            <br />
+            <br />
+            An hours walk, means a full hours walk. We do not cut corners.
+            <br />
+            <br />
+            We walk a maximum of 6 dogs at one time, though individual walks can
+            sometimes be accomodated.
+            <br />
+            We put a lot of thought into the groupings of our dogs to maximise
+            the enjoyment of everyone concerned.
+            <br />
+            We collect from Cambridge City and the surrounding villages.
+            <br />
+            <br />
+          </p>
+        </div>
+      </div>
+      <div className="righthanded">
+        <img className="image-right" src={daschund} alt="daschund" />
+        <div className="text-left">
+          <p>
+            Daycare, boarding, Home sitting and retreats
+            <br /> <br />
+            We offer full and half daycare to support working families. We also
+            offer boarding in our own homes when you go on holiday or need
+            overnight care. Boarding is done in our own homes,and unlike kennels
+            is a relaxed and familiar environment. We can also accomodate coming
+            in to your home. Our home sitting service suits some people better.
+            It is a walking and feeding package that includes
+            <br />
+            1-3 walks (according to dog),
+            <br />
+            feeding, watering plants and caring for your home,
+            <br />
+            plus text updates! <br />
+          </p>
+        </div>
+      </div>
+      <div className="lefthanded">
+        <img className="image-left" src={jumping} alt="dog running" />
+        <div className="text-right">
+          <p>
+            Retreats <br /> <br />
+            Coming soon...
+            <br />
+            All our passion for dogs is being chanelled into developing a
+            comprehensive live in care ,provided in a wonderful doggy creche
+            based in rural Fenland near Downham Market. 8 acres of land devoted
+            to exercise and exploring for the dogs, a sensory garden, doggy
+            pool, chill out rooms, groom room with a wash bath. Doggy rooms with
+            under floor heating. All areas covered by webcam so you can see what
+            your dog is up to. High security electric, password access front
+            gates, monitored at all times
+            <br />
+            <br />
+          </p>
+        </div>
+      </div>
+      <div className="righthanded">
+        <img className="image-right" src={flyer} alt="relax class flyer" />
+        <div className="text-left">
+          <p>
+            Holistic Therapies
+            <br /> <br />I am a qualified &nbsp;
+            <a href={"https://ttouch.com/"}>Tellington TTouch</a>, Canine Flow
+            and &nbsp;
+            <a href={"https://reikifed.co.uk/reiki-healing/animal-reiki/"}>
+              Reiki for Dogs
+            </a>{" "}
+            &nbsp; practitioner.
+            <br />
+            <br />
+            One to one session
+            <br />
+            Spiralwork and training techniques.
+            <br /> £25 for initial consultation. second session onwards £35 per
+            hour. <br />
+            Book a block of 5 sessions - £10 discount
+            <br />
+          </p>
+        </div>
+      </div>
+      <div className="pcentralised">
         <p>
           Reiki For Dogs <br />
           Dogs intuitively understand this technique and will sometimes present
@@ -203,6 +196,7 @@ const Services = () => {
           <a href={"https://ttouch.com/"}>Tellington TTouch Link</a>
         </p>
       </div>
+      ;
     </StyledDiv>
   );
 };

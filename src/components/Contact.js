@@ -6,7 +6,7 @@ const Contact = () => {
     <StyledDiv>
       <div className="social-media-icons">
         <div className="top-row">
-          <a href="tel:+44-7971-489-600">
+          <a href="tel:+447971489600">
             <i width="100%" class="fa fa-phone" aria-hidden="true">
               {" "}
               07971 489600

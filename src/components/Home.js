@@ -1,5 +1,4 @@
 import React from "react";
-// import rowOfDogs from "../img/rowOfDogs.png";
 import autumn from "../img/autumn.jpg";
 import granchester from "../img/granchesterMeadows.jpg";
 import paw from "../img/paw.png";
@@ -62,8 +61,7 @@ const testimonialCarousel = [
 const Home = () => {
   return (
     <StyledDiv>
-      {/* <a style="padding:10px;display:block;" href="http://androidcss.com/css/css3-floating-button-tutorial/" target="_blank">Click here for complete tutorial</a>
-      <a href="#" class="float"> */}
+      
 
       <h1>Dog Walking in Cambridge </h1>
       <h2>(and surrounding villages)</h2>
@@ -80,8 +78,10 @@ const Home = () => {
       </h2>
       <br />
 
-      <div className="image-left">
-        <img src={autumn} alt="autumn" />
+      <div className="lefthanded">
+        <img className="image-left" src={autumn} alt="autumn" />
+        <div className="text-right"> 
+        
         <h2>
           Having a full time job, time consuming responsibilities or mobility
           issues can make dog parenting difficult, and everybody needs time out
@@ -91,10 +91,12 @@ const Home = () => {
           to act in loco parentis for your pup when you can't be with them, look
           no further.
         </h2>
+        </div> 
       </div>
 
-      <div className="image-right">
-        <img src={granchester} alt="granchester meadows" />
+      <div className="righthanded">
+        <img className="image-right"src={granchester} alt="granchester meadows" />
+        <div className="text-left">
         <h2>
           We offer all aspects of dog care, tailored to your requirements and
           your dog's needs. <br /> We understand dogs and ensure they have
@@ -104,6 +106,7 @@ const Home = () => {
           according to the dog's needs and be both flexible and reliable. We
           will never let you down.
         </h2>
+        </div> 
       </div>
 
       <br />
@@ -225,27 +228,7 @@ const Home = () => {
           <Link to="/services/holistic">Read More</Link>
         </div>
 
-        {/* 
-        //Retreats
-        
-        <div className="servicesBox">
-          <div className="servicesBox-header">
-            <img src={paw} alt="paw" />
-            <h1>Retreats</h1>
-          </div>
-          <h2>test</h2>
-          <Link to="/services/walks">Read More</Link>
-        </div>
-
-        //Grooming
-            <div className="servicesBox">
-          <div className="servicesBox-header">
-            <img src={paw} alt="paw" />
-            <h1>Grooming</h1>
-          </div>
-          <h2>tbd</h2>
-          <Link to="/services/daycare">Read More</Link>
-        </div> */}
+    
       </div>
 
       <div className="carousel-container">

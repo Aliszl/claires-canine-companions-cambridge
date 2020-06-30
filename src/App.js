@@ -1,25 +1,21 @@
 import React from "react";
-// import logo from './logo.svg';
 import "./App.css";
 import { Route, Switch } from "react-router-dom";
 import "antd/dist/antd.css";
 import { Layout } from "antd";
-// import styled from "styled-components";
 import Navigation from "./components/Navigation";
 import Home from "./components/Home";
-import Contact from "./components/Contact"
+import Contact from "./components/Contact";
 import Services from "./components/Services";
 import About from "./components/About";
 import Gallery from "./components/Gallery";
 import { AppStyled } from "./styles/style";
 import fullWidthDogPic from "./img/jackheadshot.jpeg";
 
-
 import rowOfDogs from "./img/rowOfDogs.png";
 import Walks from "./components/Walks";
 import Boarding from "./components/Boarding";
 import Daycare from "./components/Daycare";
-// import ServicesNav from "./components/ServicesNav";
 import Grooming from "./components/Grooming";
 import Retreats from "./components/Retreats";
 import PuppyTraining from "./components/PuppyTraining";
@@ -29,10 +25,6 @@ import Holistic from "./components/Holistic";
 const { Header, Content } = Layout;
 
 function App() {
- 
-//   window.onbeforeunload = function () {
-//     window.scrollTo(0,0);
-// };
   return (
     <AppStyled id="top" className="App-header">
       <div className="headerCentralised">Claire's Canine Companions</div>
@@ -50,7 +42,6 @@ function App() {
               <Home />
             </Route>
             <Route exact path="/services">
-              {/* <ServicesNav /> */}
               <Services />
             </Route>
             <Route exact path="/services/walks">
@@ -89,8 +80,6 @@ function App() {
             <Route exact path="/holistic/reiki">
               <Home />
             </Route>
-           
-
           </Switch>
         </Content>
       </Layout>
@@ -98,20 +87,17 @@ function App() {
         <div className="jackHeadshotDiv">
           <img className="jackHeadshot" src={fullWidthDogPic} alt="dog" />
 
-      
-
-          {/* <img className="facebook" src={facebook} alt="icon" /> */}
+        
         </div>
       </footer>
       <div>
-      <a href="Contact" class="float">
-<i class="fa fa-envelope-o my-float"></i>
-</a>
+        <a href="Contact" class="float">
+          <i class="fa fa-envelope-o my-float"></i>
+        </a>
 
-<a href="#top" class="float-up">
-<i class="fa  fa-angle-up my-float"></i>
-</a>
-        
+        <a href="#top" class="float-up">
+          <i class="fa  fa-angle-up my-float"></i>
+        </a>
       </div>
     </AppStyled>
   );
