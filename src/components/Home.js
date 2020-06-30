@@ -62,6 +62,9 @@ const testimonialCarousel = [
 const Home = () => {
   return (
     <StyledDiv>
+      {/* <a style="padding:10px;display:block;" href="http://androidcss.com/css/css3-floating-button-tutorial/" target="_blank">Click here for complete tutorial</a>
+      <a href="#" class="float"> */}
+
       <h1>Dog Walking in Cambridge </h1>
       <h2>(and surrounding villages)</h2>
       <br />

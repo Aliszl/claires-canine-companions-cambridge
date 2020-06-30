@@ -2,9 +2,45 @@ import styled from "styled-components";
 // import fullWidthDogPic from "../img/jackheadshot.jpeg";
 // import { Carousel } from "antd";
 export const AppStyled = styled.div`
+html { scroll-behavior: smooth; }
   background-color: #fff;
   width: 100%;
+/* fixed hover button */
+  
+/* body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	background-color:#CCC;
+} */
 
+.float{
+	position:fixed;
+	width:5rem;
+	height:5rem;
+	bottom:40px;
+	right:40px;
+	background-color: #ff9900;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:40%;
+}
+  .float-up {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    bottom: 110px;
+    right: 20px;
+    background-color: #06c;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    /* box-shadow: 2px 2px 3px #999; */
+  }
   .rowOfDogs {
     margin: 0;
     max-width: 100%;
@@ -187,32 +223,6 @@ export const StyledDiv = styled.div`
       }
     }
   }
-  .social-media-icons {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    @media (max-width: 768px) {
-      flex-direction: column;
-      justify-content: space-around;
-    }
-  }
-  .fa {
-    padding: 40px;
-    font-size: 50px;
-    max-width: 200px;
-    text-align: center;
-    text-decoration: none;
-    @media (max-width: 768px) {
-      padding: 20px;
-    }
-  }
-  .fa:hover {
-    opacity: 0.7;
-  }
-  i {
-    width: 100%;
-  }
 
   .carouselandtext {
     text-align: center;
@@ -295,4 +305,33 @@ export const StyledDiv = styled.div`
       }
     }
   }
+  .social-media-icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    @media (max-width: 768px) {
+      flex-direction: column;
+      justify-content: space-around;
+    }
+  
+  /* .fa {
+    padding: 40px;
+    font-size: 20px;
+    max-width: 200px;
+    text-align: center;
+    text-decoration: none;
+    @media (max-width: 768px) {
+      padding: 20px;
+    } 
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
+  i {
+    width: 100%;
+  } */
+
+  } 
+
 `;
