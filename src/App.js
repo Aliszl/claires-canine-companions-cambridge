@@ -29,8 +29,12 @@ import Holistic from "./components/Holistic";
 const { Header, Content } = Layout;
 
 function App() {
+ 
+//   window.onbeforeunload = function () {
+//     window.scrollTo(0,0);
+// };
   return (
-    <AppStyled className="App-header">
+    <AppStyled id="top" className="App-header">
       <div className="headerCentralised">Claire's Canine Companions</div>
       <div className="image">
         <img className="rowOfDogs" src={rowOfDogs} alt="dogs" />
@@ -99,6 +103,16 @@ function App() {
           {/* <img className="facebook" src={facebook} alt="icon" /> */}
         </div>
       </footer>
+      <div>
+      <a href="Contact" class="float">
+<i class="fa fa-envelope-o my-float"></i>
+</a>
+
+<a href="#top" class="float-up">
+<i class="fa  fa-angle-up my-float"></i>
+</a>
+        
+      </div>
     </AppStyled>
   );
 }
