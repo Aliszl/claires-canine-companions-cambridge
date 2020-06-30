@@ -53,15 +53,25 @@ export const AppStyled = styled.div`
   .headerCentralised {
     text-align: center;
     font-family: "Indie Flower", cursive;
-    font-size: 4rem;
+    font-size: 50px;
+    @media (max-width: 1024px) {
+      font-size: 50px;
+    }
     @media (max-width: 768px) {
-      font-size: 2rem;
+      font-size: 35px;
+    }
+    
+    @media (max-width: 411px) {
+      font-size: 30px;
+    }
+    @media (max-width: 360px) {
+      font-size: 2em;
     }
   }
   .pcentralised {
     text-align: center;
     font-family: "Indie Flower", cursive;
-    font-size: 1rem;
+    font-size: 30px;
   }
 
   .lefthanded {
@@ -74,6 +84,7 @@ export const AppStyled = styled.div`
 
     }
       .text-right {
+        font-size:30px;
         width: 50%;
         padding: 30px;
       }
@@ -88,6 +99,7 @@ export const AppStyled = styled.div`
     .text-left {
       width: 50%;
       padding: 30px;
+      font-size:30px;
     }
     }
   @media (max-width: 768px) {
@@ -96,35 +108,31 @@ export const AppStyled = styled.div`
 
       .lefthanded {
         display: flex;
-    flex-direction: column;
-    .image-left {
-      width: 100%
-    }
-    .text-right{
-      width: 100%;
-      padding: 10px;
-  
-      }
+        flex-direction: column;
+        .image-left {
+          width: 100%
+        }
+        .text-right{
+          width: 100%;
+          padding: 10px;
+      
+          }
       }
    .righthanded{
-      display: flex;
-    flex-direction: column;
-    .image-right {
-      width: 100%;
-      
+        display: flex;
+      flex-direction: column;
+      .image-right {
+        width: 100%;
+        
+      }
+      .text-left {
+        width: 100%;
+        padding: 20px;
+      }
     }
-    .text-left {
-      width: 100%;
-      padding: 20px;
-    }
-    }
-   
-    
-    }
+     
   }
  
-
-  
   }
   footer {
 
@@ -157,24 +165,51 @@ export const StyledDiv = styled.div`
 
   h1 {
     font-family: "Indie Flower", cursive;
-    font-size: 3em;
+    font-size: 40px;
     text-align: center;
+    @media (max-width: 1024px) {
+      font-size: 25px;
+    }
     @media (max-width: 768px) {
-      font-size: 2em;
+      font-size: 35px;
+    }
+    @media (max-width: 411px) {
+      font-size: 22px;
+    }
+    @media (max-width: 360px) {
+      font-size: 22px;
     }
   }
   h2 {
     font-family: "Indie Flower", cursive;
-    font-size: 2em;
+    font-size: 30px;
+    @media (max-width: 1024px) {
+      font-size: 25px;
+    }
     @media (max-width: 768px) {
-      font-size: 1em;
+      font-size: 35px;
+    }
+    @media (max-width: 411px) {
+      font-size: 20px;
+    }
+    @media (max-width: 360px) {
+      font-size: 20px;
     }
   }
   h3 {
     font-family: "Indie Flower", cursive;
-    font-size: 1em;
+    font-size: 25px;
+    @media (max-width: 1024px) {
+      font-size: 25px;
+    }
     @media (max-width: 768px) {
-      font-size: 1em;
+      font-size: 35px;
+    }
+    @media (max-width: 411px) {
+      font-size: 20px;
+    }
+    @media (max-width: 360px) {
+      font-size: 20px;
     }
   }
   h4 {
@@ -183,11 +218,27 @@ export const StyledDiv = styled.div`
     @media (max-width: 768px) {
       font-size: 1em;
     }
+
+    @media (max-width: 411px) {
+      font-size: 2em;
+    }
+    @media (max-width: 360px) {
+      font-size: 2em;
+    }
   }
   p {
-    font-size: 1.5em;
+    font-size: 40px;
+    @media (max-width: 1024px) {
+      font-size: 25px;
+    }
     @media (max-width: 768px) {
-      font-size: 1em;
+      font-size: 35px;
+    }
+    @media (max-width: 411px) {
+      font-size: 20px;
+    }
+    @media (max-width: 360px) {
+      font-size: 20px;
     }
   }
 
@@ -195,10 +246,18 @@ export const StyledDiv = styled.div`
     margin: 0 0 0 80px;
     text-align: left;
     font-family: "Indie Flower", cursive;
-    font-size: 2rem;
+    font-size: 40px;
     text-emphasis: bold;
     @media (max-width: 768px) {
-      font-size: 1.5em;
+      font-size: 30px;
+      margin: 0 0 0 0;
+    }
+    @media (max-width: 411px) {
+      font-size: 20px;
+      margin: 0 0 0 0;
+    }
+    @media (max-width: 360px) {
+      font-size: 20px;
       margin: 0 0 0 0;
     }
   }
@@ -242,14 +301,14 @@ export const StyledDiv = styled.div`
       .headerCentralised {
         text-align: center;
         font-family: "Indie Flower", cursive;
-        font-size: 1rem;
+        font-size: 25px;
       }
     }
   }
 
   .carouselandtext {
     text-align: center;
-    font-size: 3rem;
+    font-size: 25px;
     margin-top: 40px;
     display: flex;
     h1 {
