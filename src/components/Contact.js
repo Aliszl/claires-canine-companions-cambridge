@@ -53,7 +53,7 @@ const Contact = () => {
             {" "}
           </a>
           <a
-            href="https://www.linkedin.com/in/claire-bloomfield-8434b016b/?originalSubdomain=uk"
+            href=" https://wa.me/447971489600"
             className="fa fa-whatsapp"
           >
             {" "}
