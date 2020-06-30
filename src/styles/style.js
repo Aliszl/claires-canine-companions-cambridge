@@ -74,64 +74,7 @@ export const AppStyled = styled.div`
     font-size: 30px;
   }
 
-  .lefthanded {
-    display: flex;
-    flex-direction: row;
 
-    .image-left {
-      width: 50%;
-      padding-bottom: 5%;
-
-    }
-      .text-right {
-        font-size:30px;
-        width: 50%;
-        padding: 30px;
-      }
-  }
-  .righthanded{
-      display: flex;
-    flex-direction: row-reverse;
-    .image-right {
-      width: 50%;
-      
-    }
-    .text-left {
-      width: 50%;
-      padding: 30px;
-      font-size:30px;
-    }
-    }
-  @media (max-width: 768px) {
-   
-      flex-direction: column;
-
-      .lefthanded {
-        display: flex;
-        flex-direction: column;
-        .image-left {
-          width: 100%
-        }
-        .text-right{
-          width: 100%;
-          padding: 10px;
-      
-          }
-      }
-   .righthanded{
-        display: flex;
-      flex-direction: column;
-      .image-right {
-        width: 100%;
-        
-      }
-      .text-left {
-        width: 100%;
-        padding: 20px;
-      }
-    }
-     
-  }
  
   }
   footer {
@@ -260,6 +203,65 @@ export const StyledDiv = styled.div`
       font-size: 20px;
       margin: 0 0 0 0;
     }
+  }
+
+  .lefthanded {
+    display: flex;
+    flex-direction: row;
+
+    .image-left {
+      width: 50%;
+      padding-bottom: 5%;
+
+    }
+      .text-right {
+        font-size:30px;
+        width: 50%;
+        padding: 30px;
+      }
+  }
+  .righthanded{
+      display: flex;
+    flex-direction: row-reverse;
+    .image-right {
+      width: 50%;
+      
+    }
+    .text-left {
+      width: 50%;
+      padding: 50px;
+      font-size:30px;
+    }
+    }
+  @media (max-width: 768px) {
+   
+      flex-direction: column;
+
+      .lefthanded {
+        display: flex;
+        flex-direction: column;
+        .image-left {
+          width: 100%
+        }
+        .text-right{
+          width: 100%;
+          padding: 10px;
+      
+          }
+      }
+   .righthanded{
+        display: flex;
+      flex-direction: column;
+      .image-right {
+        width: 100%;
+        
+      }
+      .text-left {
+        width: 100%;
+        padding: 20px;
+      }
+    }
+     
   }
 
   .services-row {
