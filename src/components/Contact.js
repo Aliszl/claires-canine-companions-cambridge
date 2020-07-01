@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="social-media-icons">
         <div className="top-row">
           <a href="tel:+447971489600">
-            <i width="100%" class="fa fa-phone" aria-hidden="true">
+            <i width="100%" className="fa fa-phone" aria-hidden="true">
               {" "}
               07971 489600
             </i>{" "}
@@ -15,7 +15,7 @@ const Contact = () => {
           <br />
 
           <a href="mailto:clairewalks@gmail.com?bcc=alisparklaw@gmail.com&subject=Dog%20Care%20Query&body=Hi%20Claire,%0D%0DI%20would%20like%20to%20enquire%20about">
-            <i class="fa fa-envelope-o" aria-hidden="true">
+            <i className="fa fa-envelope-o" aria-hidden="true">
               {" "}
               clairewalks@gmail.com
             </i>
