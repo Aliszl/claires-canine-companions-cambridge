@@ -91,12 +91,12 @@ function App() {
         </div>
       </footer>
       <div>
-        <a href="Contact" class="float">
-          <i class="fa fa-envelope-o my-float"></i>
+        <a href="Contact" className="float">
+          <i className="fa fa-envelope-o my-float"></i>
         </a>
 
-        <a href="#top" class="float-up">
-          <i class="fa  fa-angle-up my-float"></i>
+        <a href="#top" className="float-up">
+          <i className="fa  fa-angle-up my-float"></i>
         </a>
       </div>
     </AppStyled>

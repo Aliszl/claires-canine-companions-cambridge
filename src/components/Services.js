@@ -12,7 +12,7 @@ const Services = () => {
     <StyledDiv style={{ background: "#fff" }}>
       <div>
         <h2 className="headerCentralised">Services</h2>
-        <p className="pcentralised">
+        <div className="pcentralised">
           <ul>
             <Link to="/services/walks">
               {" "}
@@ -42,7 +42,7 @@ const Services = () => {
               <li>Holistic Therapies</li>
             </Link>
           </ul>
-        </p>
+        </div>
       </div>
       <br />
       <div className="lefthanded">
