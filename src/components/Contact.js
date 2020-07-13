@@ -67,7 +67,7 @@ const Contact = () => {
          
         </div>
       <div>
-      <iframe title="pick up zone" src="https://www.google.com/maps/d/u/0/embed?mid=1Dg5S797owkZ6QQPetH4R0f77c3h1UH9s" width="640" height="480"></iframe>
+      <iframe title="pick up zone" src="https://www.google.com/maps/d/u/0/embed?mid=1Dg5S797owkZ6QQPetH4R0f77c3h1UH9s" width="100%" height="480"></iframe>
       </div>
       </div>
     </StyledContacts>
