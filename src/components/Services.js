@@ -68,6 +68,7 @@ const Services = () => {
             <br />
             We collect from Cambridge City and the surrounding villages.
             <br />
+            {/* <Link to="/contacts">Map of pick up zone</Link> */}
             <br />
           </p>
         </div>
