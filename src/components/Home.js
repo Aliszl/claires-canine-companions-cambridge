@@ -97,6 +97,7 @@ const Home = () => {
             2 dogs: £20
             <br /> <br />
             Includes pick up and drop off.
+            
             <br /> <br />
           </h2>
           <Link to="/services/walks">Read More</Link>
