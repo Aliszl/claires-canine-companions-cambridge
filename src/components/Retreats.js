@@ -3,7 +3,7 @@ import {StyledDiv} from "../styles/style";
 const Walks = () => {
     return (
         <StyledDiv>
-          <h2>Retreats</h2>
+          <h2 className="headerCentralised">Retreats</h2>
        <p>Exciting new beginnings in 2021.
           My partner, the team and I are creating a wonderful doggy creche based in Downham Market
 

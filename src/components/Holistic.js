@@ -5,7 +5,7 @@ import flyer from "../img/flyerrelaxdogclasses.jpg";
 const HomeSitting = () => {
     return (
         <StyledDiv>
-          <h2>Holistic Treatments</h2>
+          <h2 className="headerCentralised">Holistic Treatments</h2>
 
           <p>
             Dogs need food, exercise and fresh air but they are also deeply emotional beings.  

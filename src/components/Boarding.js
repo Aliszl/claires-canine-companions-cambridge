@@ -3,10 +3,20 @@ import {StyledDiv} from "../styles/style";
 const Boarding = () => {
     return (
         <StyledDiv>
-          <h2>Boarding </h2>
-       <p>All boarding is currently done in our homes, rather than kennels
-          so it is a very relaxed, homely environment
-          <br/> <br/> £35 per 24 hours <br/>  <br/>We will 
+          <h2 className="headerCentralised">Boarding </h2>
+       <p>We provide over night stays for as long as you require. From just one night to several weeks can all be accomodated. All boarding is currently done in our homes, rather than kennels
+          so it is a very relaxed, homely environment.
+          <br/> <br/> £35 per day <br/> 
+          <br/>
+          We provide for all your pups needs, both physical and emotional 
+          whilst you are on holiday or seeing to other responsibilities.
+          <br/>
+         
+          </p>
+
+
+          {/* <br/>
+          <p>We will 
           continue to offer one on one domestic boarding where that is the best fit, 
           but to extend our service and capacity we also have exciting future plans 
           to develop a property to provide boarding and daycare, that is a world away from kennels, using our skills and knowledge about what
@@ -23,7 +33,7 @@ const Boarding = () => {
           We know how unsettling it can be to leave your furbabies in the care of another, they are family after all,
            so all areas will be covered by webcam so you can see what your dog is up to at all times. 
           We are confident enough in our skills and the service we provide to be entirely and radically open.
-           </p>
+           </p> */}
         </StyledDiv>
       );
     };

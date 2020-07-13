@@ -95,9 +95,101 @@ export const AppStyled = styled.div`
   }
 `;
 
+
+export const StyledContacts = styled.div`
+  background-color: #fff;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px 20px 0 20px;
+
+  overflow: hidden;
+
+  h1 {
+    font-family: "Indie Flower", cursive;
+    font-size: 50px;
+ 
+    @media (max-width: 1024px) {
+      font-size: 45px;
+    }
+    @media (max-width: 768px) {
+      font-size: 35px;
+    }
+    @media (max-width: 411px) {
+      font-size: 28px;
+    }
+    @media (max-width: 360px) {
+      font-size: 22px;
+    }
+  }
+
+  }
+
+    .social-media-icons {
+    padding: 20px 20px 0 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .top-row {
+     
+      display: flex;
+      flex-direction: row;
+    
+    }
+    .bottom-row {
+      display: flex;
+      flex-direction: row;
+
+      justify-content:space-between;
+    
+    }
+    @media (max-width: 766px) {
+      flex-direction: column;
+      justify-content: space-around;
+      .top-row {
+        display: flex;
+        flex-direction: column;
+      }
+      .bottom-row {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    .fa {
+      padding: 40px;
+      font-size: 40px;
+      max-width: 300px;
+      text-align: left;
+      text-decoration: none;
+    
+      @media (max-width: 768px) {
+        padding: 20px;
+        font-size: 30px;
+      }
+    }
+    .fa:hover {
+      opacity: 0.7;
+    }
+    i {
+      display:flex;
+      flex-direction:row;
+  
+     
+    }
+  
+  }
+  
+`
+
+
+
+
+
+
 export const StyledDiv = styled.div`
   background-color: #fff;
-  margin: 0 0 0 0;
+  margin: 0 auto;
   width: 100%;
   padding: 90px 20px 0 20px;
 
@@ -387,47 +479,5 @@ export const StyledDiv = styled.div`
       }
     }
   }
-  .social-media-icons {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    .top-row {
-      display: flex;
-      flex-direction: row;
-    }
-    .bottom-row {
-      display: flex;
-      flex-direction: row;
-    }
-    @media (max-width: 768px) {
-      flex-direction: column;
-      justify-content: space-around;
-      .top-row {
-        display: flex;
-        flex-direction: column;
-      }
-      .bottom-row {
-        display: flex;
-        flex-direction: column;
-      }
-    }
-
-    .fa {
-      padding: 40px;
-      font-size: 20px;
-      max-width: 300px;
-      text-align: left;
-      text-decoration: none;
-      @media (max-width: 768px) {
-        padding: 20px;
-      }
-    }
-    .fa:hover {
-      opacity: 0.7;
-    }
-    i {
-      width: 100%;
-    }
-  }
+  
 `;

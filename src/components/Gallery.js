@@ -104,7 +104,7 @@ const carouselImages = [
 const Gallery = () => {
   return (
     <StyledDiv>
-      <h2>Gallery</h2>
+      <h2 className="headerCentralised">Gallery</h2>
       <p>We try to walk the dogs in the most lovely places.</p>
       <Carousel className="carousel" autoplay>
         <div>

@@ -3,7 +3,7 @@ import { StyledDiv } from "../styles/style";
 
 import dogrunning from "../img/dogrunningwhitebackground.jpeg";
 import daschund from "../img/daschund.jpeg";
-import jumping from "../img/jumpingdog.jpeg";
+// import jumping from "../img/jumpingdog.jpeg";
 import flyer from "../img/flyerrelaxdogclasses.jpg";
 import { Link } from "react-router-dom";
 
@@ -93,7 +93,7 @@ const Services = () => {
           </p>
         </div>
       </div>
-      <div className="lefthanded">
+      {/* <div className="lefthanded">
         <img className="image-left" src={jumping} alt="dog running" />
         <div className="text-right">
           <p>
@@ -112,8 +112,32 @@ const Services = () => {
             <br />
           </p>
         </div>
+      </div> */}
+            <div className="lefthanded">
+            <img className="image-right" src={flyer} alt="relax class flyer" />
+            <div className="text-left">
+            <p>
+            Holistic Therapies
+            <br /> <br />I am a qualified &nbsp;
+            <a href={"https://ttouch.com/"}>Tellington TTouch</a>, Canine Flow
+            and &nbsp;
+            <a href={"https://reikifed.co.uk/reiki-healing/animal-reiki/"}>
+              Reiki for Dogs
+            </a>{" "}
+            &nbsp; practitioner.
+            <br />
+            <br />
+            One to one session
+            <br />
+            Spiralwork and training techniques.
+            <br /> £25 for initial consultation. second session onwards £35 per
+            hour. <br />
+            Book a block of 5 sessions - £10 discount
+            <br />
+          </p>
+        </div>
       </div>
-      <div className="righthanded">
+      {/* <div className="righthanded">
         <img className="image-right" src={flyer} alt="relax class flyer" />
         <div className="text-left">
           <p>
@@ -136,7 +160,7 @@ const Services = () => {
             <br />
           </p>
         </div>
-      </div>
+      </div> */}
       <div className="pcentralised">
         <p>
           Reiki For Dogs <br />
