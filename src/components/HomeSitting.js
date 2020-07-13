@@ -3,7 +3,7 @@ import {StyledDiv} from "../styles/style";
 const HomeSitting = () => {
     return (
         <StyledDiv>
-          <h2>Home Sitting</h2>
+          <h2 className="headerCentralised">Home Sitting</h2>
        <p>We can look after your dog in the familiar and comforting environment of their own home. <br />
          Our home sitting service suits some dogs better.<br />
          <br />

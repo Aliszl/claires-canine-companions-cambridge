@@ -3,7 +3,7 @@ import {StyledDiv} from "../styles/style";
 const Grooming= () => {
     return (
         <StyledDiv>
-          <h2>Grooming</h2>
+          <h2 className="headerCentralised">Grooming</h2>
        
         </StyledDiv>
       );

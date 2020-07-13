@@ -3,7 +3,7 @@ import { StyledDiv } from "../styles/style";
 const Daycare = () => {
   return (
     <StyledDiv>
-      <h2>Daycare</h2>
+      <h2 className="headerCentralised">Daycare</h2>
 
       <p>
         Dogs are very social animals – they don’t like to be alone and need
