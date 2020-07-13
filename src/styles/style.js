@@ -94,6 +94,8 @@ export const AppStyled = styled.div`
     overflow: hidden;
   }
 `;
+
+
 export const StyledContacts = styled.div`
   background-color: #fff;
   margin: 0 auto;
@@ -102,11 +104,10 @@ export const StyledContacts = styled.div`
 
   overflow: hidden;
 
-
   h1 {
     font-family: "Indie Flower", cursive;
     font-size: 50px;
-    /* text-align: center; */
+ 
     @media (max-width: 1024px) {
       font-size: 45px;
     }
@@ -123,27 +124,6 @@ export const StyledContacts = styled.div`
 
   }
 
-  /* li {
-    margin: 0 0 0 80px;
-    text-align: left;
-    font-family: "Indie Flower", cursive;
-    font-size: 40px;
-    text-emphasis: bold;
-    @media (max-width: 768px) {
-      font-size: 30px;
-      margin: 0 0 0 0;
-    }
-    @media (max-width: 411px) {
-      font-size: 20px;
-      margin: 0 0 0 0;
-    }
-    @media (max-width: 360px) {
-      font-size: 20px;
-      margin: 0 0 0 0;
-    }
-  } */
-
-
     .social-media-icons {
     padding: 20px 20px 0 20px;
     display: flex;
@@ -151,7 +131,7 @@ export const StyledContacts = styled.div`
     flex-wrap: wrap;
     justify-content: space-between;
     .top-row {
-      background-color:red;
+     
       display: flex;
       flex-direction: row;
     
@@ -159,7 +139,7 @@ export const StyledContacts = styled.div`
     .bottom-row {
       display: flex;
       flex-direction: row;
-      background-color:blue;
+
       justify-content:space-between;
     
     }
