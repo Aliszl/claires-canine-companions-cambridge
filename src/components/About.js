@@ -14,9 +14,10 @@ const About = () => {
         Claire's Canine Companions was established in 2010. <br /><br />
         We are a close knit team of Cambridgeshire based dog walkers and
         sitters, lead by founder and namesake Claire Bloomfield. <br /><br />
-        As a team we are commited to regular ongoing training, with a rolling
-        programme throughout the month and special speakers on topics such as
-        Raw Feeding, Nutrition, Dog Retreat weekends, Puppy Classes, and Agility
+        As a team we are commited to regular ongoing training,
+         with special speakers throughout the year on topics such 
+         as raw Feeding, nutrition, dog retreat weekends,
+          puppy Classes, and agility.<br/><br/>
         All the team were selected for their passion and expertise with dogs.
          We currently have 5 team members.
       </p>
