@@ -91,7 +91,7 @@ function App() {
         </div>
       </footer>
       <div>
-        <a href="Contact" className="float">
+        <a href="mailto:clairewalks@gmail.com?bcc=alisparklaw@gmail.com&subject=Dog%20Care%20Query&body=Hi%20Claire,%0D%0DI%20would%20like%20to%20enquire%20about%20one%20of%20your%20services" className="float">
           <i className="fa fa-envelope-o my-float"></i>
         </a>
 
