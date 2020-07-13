@@ -29,12 +29,12 @@ const Contact = () => {
           >
             {" "}
           </a>
-          <a
+          {/* <a
             href="https://www.facebook.com/clairewalks/"
             className="fa fa-twitter"
           >
             {" "}
-          </a>
+          </a> */}
           <a
             href="https://www.linkedin.com/in/claire-bloomfield-8434b016b/?originalSubdomain=uk"
             className="fa fa-linkedin"

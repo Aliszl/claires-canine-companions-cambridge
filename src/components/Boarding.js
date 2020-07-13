@@ -6,7 +6,7 @@ const Boarding = () => {
           <h2>Boarding </h2>
        <p>All boarding is currently done in our homes, rather than kennels
           so it is a very relaxed, homely environment
-          <br/> <br/> £35 per 24 hours <br/>  <br/>We will 
+          <br/> <br/> £35 per day <br/>  <br/>We will 
           continue to offer one on one domestic boarding where that is the best fit, 
           but to extend our service and capacity we also have exciting future plans 
           to develop a property to provide boarding and daycare, that is a world away from kennels, using our skills and knowledge about what

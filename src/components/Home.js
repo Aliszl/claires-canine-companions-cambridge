@@ -158,7 +158,7 @@ const Home = () => {
             <h1>Boarding</h1>
           </div>
           <h2>
-            Full day and over night stay <br /> <br />
+            Over night stays <br/>to suit your holiday requirements <br /> <br />
             £35
             <br /> <br /> Includes all care and walks <br /> <br />
           </h2>
