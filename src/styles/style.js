@@ -414,7 +414,6 @@ export const StyledDiv = styled.div`
     }
     .carousel {
       margin: 0, auto;
-
       width: 32vw;
 
       text-align: center;
@@ -435,7 +434,7 @@ export const StyledDiv = styled.div`
     text-align: center;
     height: auto;
     line-height: 160px;
-    /* background: #364d79; */
+    background: #364d79;
     overflow: hidden;
   }
   .ant-carousel .slick-slide h3 {

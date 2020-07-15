@@ -187,7 +187,7 @@ const Home = () => {
           <h1 className="headerCentralised">Testimonials</h1>
         </div>
 
-        <Carousel className="carousel" autoplay>
+        <Carousel theme = "dark" className="carousel" dotPosition="top" effect="fade" autoplay>
           <div>
             <h2>{testimonialCarousel[0].carouselName}</h2>
             <p>{testimonialCarousel[0].carouselText}</p>
@@ -217,6 +217,7 @@ const Home = () => {
             <p>{testimonialCarousel[6].carouselText}</p>
           </div>
         </Carousel>
+     
       </div>
     </StyledDiv>
   );

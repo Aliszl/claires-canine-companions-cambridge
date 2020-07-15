@@ -26,6 +26,93 @@ import terrier from "../img/terrier.jpg";
 import incar from "../img/trio.jpg";
 import allsmall from "../img/labs.jpg";
 
+
+const Gallery = () => {
+  return (
+    <StyledDiv>
+      <h2 className="headerCentralised">Gallery</h2>
+      <p>We try to walk the dogs in the most lovely places.</p>
+      
+      <Carousel className="carousel"  dotPosition="top" effect="fade" autoplay>
+        <div>
+          <img src={carouselImages[0].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[1].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[2].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[3].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[4].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[5].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[6].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[7].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[8].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[9].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[10].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[11].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[12].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[13].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[14].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[15].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[16].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[17].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[18].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[19].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[20].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[21].carouselImg} alt="" />
+        </div>
+        <div>
+          <img src={carouselImages[22].carouselImg} alt="" />
+        </div>
+      </Carousel>,
+     
+    </StyledDiv>
+  );
+};
+
+export default Gallery;
+
+
+
 const carouselImages = [
   {
     carouselImg: paw,
@@ -100,85 +187,3 @@ const carouselImages = [
     carouselImg: allsmall,
   },
 ];
-
-const Gallery = () => {
-  return (
-    <StyledDiv>
-      <h2 className="headerCentralised">Gallery</h2>
-      <p>We try to walk the dogs in the most lovely places.</p>
-      <Carousel className="carousel" autoplay>
-        <div>
-          <img src={carouselImages[0].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[1].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[2].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[3].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[4].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[5].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[6].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[7].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[8].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[9].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[10].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[11].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[12].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[13].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[14].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[15].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[16].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[17].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[18].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[19].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[20].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[21].carouselImg} alt="" />
-        </div>
-        <div>
-          <img src={carouselImages[22].carouselImg} alt="" />
-        </div>
-      </Carousel>
-    </StyledDiv>
-  );
-};
-
-export default Gallery;
