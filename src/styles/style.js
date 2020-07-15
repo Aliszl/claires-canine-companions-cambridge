@@ -409,12 +409,14 @@ export const StyledDiv = styled.div`
       width: 100%;
       text-align: center;
     }
+    
     .carousel-container {
       border: 1px solid red;
     }
     .carousel {
       margin: 0, auto;
       width: 32vw;
+     
 
       text-align: center;
       .carouselpic {
@@ -429,7 +431,9 @@ export const StyledDiv = styled.div`
         border-radius: 8px;
       }
     }
+    
   }
+ 
   .ant-carousel .slick-slide {
     text-align: center;
     height: auto;
