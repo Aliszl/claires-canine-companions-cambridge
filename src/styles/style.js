@@ -95,7 +95,6 @@ export const AppStyled = styled.div`
   }
 `;
 
-
 export const StyledContacts = styled.div`
   background-color: #fff;
   margin: 0 auto;
@@ -129,11 +128,12 @@ export const StyledContacts = styled.div`
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     .top-row {
      
       display: flex;
       flex-direction: row;
+      justify-content:space-evenly;
     
     }
     .bottom-row {
@@ -159,7 +159,6 @@ export const StyledContacts = styled.div`
     .fa {
       padding: 40px;
       font-size: 40px;
-      max-width: 300px;
       text-align: left;
       text-decoration: none;
     
@@ -180,22 +179,18 @@ export const StyledContacts = styled.div`
   
   }
   
-`
-
-
-
-
-
+`;
 
 export const StyledDiv = styled.div`
   background-color: #fff;
   margin: 0 auto;
+ 
   width: 100%;
-  padding: 90px 20px 0 20px;
+  padding: 5vh 6.3vw 0vh 6.3vw;
 
   overflow: hidden;
   @media (max-width: 768px) {
-    padding: 20px 20px 0 20px;
+    padding:20px  20px 0 20px;
   }
 
   h1 {
@@ -353,6 +348,7 @@ export const StyledDiv = styled.div`
         padding: 20px;
       }
     }
+    
      
   }
 
@@ -367,6 +363,11 @@ export const StyledDiv = styled.div`
     background-color: #f2f2f2;
     margin: 3px;
     width: 30%;
+
+    @media (max-width: 1000px) {
+  
+    width: 50%;
+    }
     .servicesBox-header {
       display: flex;
       justify-content: space-evenly;
@@ -378,6 +379,13 @@ export const StyledDiv = styled.div`
 
     @media (max-width: 768px) {
       width: 96%;
+      flex-direction: column;
+      padding: 40px 10px 0 10px;
+      .headerCentralised {
+        text-align: center;
+        font-family: "Indie Flower", cursive;
+        font-size: 25px;
+      }
       .servicesBox-header {
         display: flex;
         justify-content: space-evenly;
@@ -387,17 +395,9 @@ export const StyledDiv = styled.div`
           width: 30%;
         }
       }
-    }
+    
 
-    @media (max-width: 768px) {
-      flex-direction: column;
-      padding: 40px 10px 0 10px;
-      .headerCentralised {
-        text-align: center;
-        font-family: "Indie Flower", cursive;
-        font-size: 25px;
-      }
-    }
+
   }
 
   .carouselandtext {
@@ -409,13 +409,14 @@ export const StyledDiv = styled.div`
       width: 100%;
       text-align: center;
     }
+    
     .carousel-container {
       border: 1px solid red;
     }
     .carousel {
       margin: 0, auto;
-
       width: 32vw;
+     
 
       text-align: center;
       .carouselpic {
@@ -430,12 +431,14 @@ export const StyledDiv = styled.div`
         border-radius: 8px;
       }
     }
+    
   }
+ 
   .ant-carousel .slick-slide {
     text-align: center;
     height: auto;
     line-height: 160px;
-    /* background: #364d79; */
+    background: #364d79;
     overflow: hidden;
   }
   .ant-carousel .slick-slide h3 {
@@ -479,5 +482,5 @@ export const StyledDiv = styled.div`
       }
     }
   }
-  
+  }
 `;

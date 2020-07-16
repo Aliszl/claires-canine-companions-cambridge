@@ -9,7 +9,18 @@ import { Carousel } from "antd";
 
 
 
+const settings = {
+ 
+
+    autoplay:true,
+  pauseOnHover:true,
+  dots: true,
+  infinite: true,
+  speed: 500,
+
+};
 const Home = () => {
+
   return (
     <StyledDiv>
       
@@ -187,7 +198,7 @@ const Home = () => {
           <h1 className="headerCentralised">Testimonials</h1>
         </div>
 
-        <Carousel className="carousel" autoplay>
+        <Carousel {...settings} className="carousel" >
           <div>
             <h2>{testimonialCarousel[0].carouselName}</h2>
             <p>{testimonialCarousel[0].carouselText}</p>
@@ -217,6 +228,7 @@ const Home = () => {
             <p>{testimonialCarousel[6].carouselText}</p>
           </div>
         </Carousel>
+     
       </div>
     </StyledDiv>
   );
@@ -229,7 +241,7 @@ const testimonialCarousel = [
   {
     carouselImg: autumn,
     carouselText:
-      "We think Claire is a wonderful dog walker/house sitter. She looked after our wonderful dog, Max, in our home for 3 ½ weeks when were on holiday and we have asked her back since then. Max  has a number of issues which Claire was very happy to deal with, even taking him to the vet as requested by us. She kept us in touch with how he was doing and was always available by texting. She is full of common sense, totally trustworthy and clearly adores dogs and is very experienced. And it was clear from the start that Max was very happy with Claire. She went that extra mile with advice and ideas to help Max with his anxiety issues – all very welcome, not at all pushy. Claire is really lovely and very easy to talk to. We felt very relaxed when we were away in the knowledge that Max was being very well looked after with some very relaxing doggy massage thrown in too! Our house too was well looked after and clean and tidy when we returned!",
+      "We think Claire is a wonderful dog walker/house sitter. She looked after our wonderful dog, Max, in our home for 3 ½ weeks when were on holiday and we have asked her back since then. Max  has a number of issues which Claire was very happy to deal with, even taking him to the vet as requested by us. She kept us in touch with how he was doing and was always available by texting. She is full of common sense, totally trustworthy, clearly adores dogs and is very experienced. It was clear from the start that Max was very happy with Claire. She went that extra mile with advice and ideas to help Max with his anxiety issues – all very welcome, not at all pushy. Claire is really lovely and very easy to talk to. We felt very relaxed when we were away in the knowledge that Max was being very well looked after with some very relaxing doggy massage thrown in too! Our house too was well looked after and clean and tidy when we returned!",
     carouselName: "Maggie  (with Max) ",
   },
   {
@@ -253,7 +265,7 @@ const testimonialCarousel = [
   {
     carouselImg: granchester,
     carouselText:
-      "Claire is part of the family now. I didn't trust anyone with Domino until I bumped into Claire and Dominio automatically took to her. Domino boards with Claire frequently as I am away alot. She is always happy to go with her and happy when she comes back. I know she is in safe hands and Claore always gives her 100% attention and care while I am away. It gives me a sense of ease while I am away to know she is in good hands and very well looked after.",
+      "Claire is part of the family now. I didn't trust anyone with Domino until I bumped into Claire and Dominio automatically took to her. Domino boards with Claire frequently as I am away alot. She is always happy to go with her and happy when she comes back. I know she is in safe hands and Claire always gives her 100% attention and care while I am away. It gives me a sense of ease while I am away to know she is in good hands and very well looked after.",
     carouselName: "Aislinn with Domino",
   },
   {
