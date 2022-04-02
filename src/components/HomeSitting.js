@@ -18,7 +18,7 @@ const HomeSitting = () => {
         
           Regular text updates <br />
           <br />
-          £35 per day 
+          £37 per day 
            </p>
         </StyledDiv>
       );

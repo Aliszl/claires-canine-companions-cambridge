@@ -26,13 +26,13 @@ const Daycare = () => {
         option, where time constraints would otherwise make it impossible.
       </p>
       <h2>
-        Half day doggy day care <br /> (9am-1pm or 12-4.30) £17.50
+        Half day doggy day care <br /> (9am-1pm or 12-4.30) £20.50
         <br />
         Includes 1 walk
       </h2>
       <br />
       <h2>
-        Full day doggy day care <br /> (9am to 4.30) £25
+        Full day doggy day care <br /> (9am to 4.30) £27
         <br />
         Includes 2 walks <br />
         <br />

@@ -15,8 +15,8 @@ We walk 7 days a week including weekends and bank holidays
 <br/>
 <br/>
 1 hour walk<br/>
-£15 per hour (1 dog)<br/>
-£20 per hour (2 dogs)
+£17 per hour (1 dog)<br/>
+£22 per hour (2 dogs)
 <br/>
 <br/>
 An hours walk, means a full hours walk.  We do not cut corners.<br/><br/>

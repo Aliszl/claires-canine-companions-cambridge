@@ -52,9 +52,9 @@ const Services = () => {
             Walks <br /> <br />
             1 hour walk
             <br />
-            £15 per hour (1 dog)
+            £17 per hour (1 dog)
             <br />
-            £20 per hour (2 dogs)
+            £22 per hour (2 dogs)
             <br />
             <br />
             An hours walk, means a full hours walk. We do not cut corners.

@@ -82,11 +82,11 @@ const Home = () => {
           </div>
           <h2>
             Full day <br /> (9am to 4.30) <br />
-            £25
+            £27
             <br />
           </h2>
           <h2>
-            Half day <br /> £17.50
+            Half day <br /> £20.50
             <br />
             (9am-1pm/12-4.30)
             <br />
@@ -103,9 +103,9 @@ const Home = () => {
           <h2>
             1 hour walk
             <br /> <br />
-            1 dog: £15
+            1 dog: £17
             <br />
-            2 dogs: £20
+            2 dogs: £22
             <br /> <br />
             Includes pick up and drop off.
             
@@ -121,7 +121,7 @@ const Home = () => {
           </div>
           <h2>
             Over night stays <br/>to suit your holiday requirements <br /> <br />
-            £35
+            £37
             <br /> <br /> Includes all care and walks <br /> <br />
           </h2>
           <Link to="/services/boarding">Read More</Link>
@@ -142,7 +142,7 @@ const Home = () => {
             feeding, watering plants and caring for your home,
             <br />
             plus text updates! <br />
-            £35 per day
+            £37 per day
           </h2>
 
           <Link to="/services/homesitting">Read More</Link>
