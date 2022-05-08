@@ -8,11 +8,11 @@ const Contact = () => {
         <div className="top-row">
           <div>
 
-          <a href="tel:+447971489600">
+          <a href="tel:+447495988599">
             
               <i  className="fa fa-phone" aria-hidden="true">
                 {" "}
-                <h1>07971 489600</h1>
+                <h1>07495988599</h1>
               </i>{" "}
            
           </a>
@@ -54,7 +54,7 @@ const Contact = () => {
               {" "}
             </a>
          
-            <a href=" https://wa.me/447971489600" className="fa fa-whatsapp">
+            <a href=" https://wa.me/447495988599" className="fa fa-whatsapp">
               {" "}
             </a>
          
